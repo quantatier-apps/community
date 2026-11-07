@@ -10,7 +10,8 @@ Availability, data requirements, and setup instructions depend on the version pr
 
 ## Updates
 
-Check [Releases](https://github.com/quantatier-apps/community/releases) for published product updates and related backtesting changes.
+- [Initial community notes — Darwin client 0.21.2 / Backtesting component 1.3.0](https://github.com/quantatier-apps/community/discussions/2) — the initial record of the existing Local Backtesting integration.
+- [Releases](https://github.com/quantatier-apps/community/releases) — future product updates and related backtesting changes.
 
 ## Questions and feedback
 
