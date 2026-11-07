@@ -5,8 +5,8 @@ about: Report a reproducible problem with a Quantatier product
 
 ## Product
 
-- [ ] Quantadarwin
-- [ ] Quantacloud
+- [ ] Darwin
+- [ ] Cloud
 - [ ] Not sure
 
 ## Version and environment
