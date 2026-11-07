@@ -5,11 +5,11 @@ research and strategy workflows.
 
 ## Products
 
-**Quantadarwin** brings together tools for local strategy management,
+**Darwin** brings together tools for local strategy management,
 backtesting, and execution workflows.
 
-**Quantacloud** supports coordination of strategy versions, devices,
-and tasks alongside Quantadarwin.
+**Cloud** supports coordination of strategy versions, devices,
+and tasks alongside Darwin.
 
 Supported features, platforms, and availability depend on the
 specific product version.
