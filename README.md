@@ -7,6 +7,7 @@
 Bring strategy work, local execution, and coordination together.
 
 [Products](#products) ·
+[How It Works](#how-darwin-and-cloud-work-together) ·
 [Getting Started](#getting-started) ·
 [Community](#community) ·
 [Updates](#updates-and-releases)
@@ -87,6 +88,34 @@ results.
 
 > Features, interface details, and available workflows depend on the
 > product version and configuration.
+
+## How Darwin and Cloud Work Together
+
+```mermaid
+flowchart LR
+    U["👤 User"] --> D["🖥️ Darwin<br/>Local workspace"]
+    U --> C["☁️ Cloud<br/>Strategy and task coordination"]
+
+    C -->|"Supported tasks"| D
+    D -->|"Task status and available results"| C
+
+    D --- L["📊 Local backtesting"]
+
+    classDef product fill:#eaf3ff,stroke:#4778b8,color:#17365d
+    classDef user fill:#f4f6f8,stroke:#95a1b2,color:#273444
+
+    class D,C product
+    class U,L user
+```
+
+Darwin supports local strategy and backtesting workflows. When a
+workflow uses Cloud, a connected Darwin device can participate in
+supported tasks and return available status and results.
+
+> Available features and workflows depend on the product version
+> and configuration.
+
+
 
 ## Getting Started
 
