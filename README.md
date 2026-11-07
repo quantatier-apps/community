@@ -7,7 +7,7 @@
 Darwin for local strategy work.  
 Cloud for connected workflows.
 
-[Explore Products](#products) · [How It Works](#how-it-works) · [Getting Started](#getting-started) · [Community](#community)
+[Products](#products) · [How It Works](#how-it-works) · [Getting Started](#getting-started) · [Releases](https://github.com/quantatier-apps/community/releases) · [Repository](https://github.com/quantatier-apps/community)
 
 [Join Discussions](https://github.com/quantatier-apps/community/discussions) · [Report an Issue](https://github.com/quantatier-apps/community/issues/new/choose)
 
@@ -25,50 +25,39 @@ This community is a place to learn about the products, ask questions, share idea
 
 ## Products
 
-### 🖥️ Darwin
+### Darwin
+
+<a href="#start-with-darwin"><img src="./quantadarwin-wordmark.png" alt="Quantadarwin — Darwin product introduction" width="220"></a>
 
 **Your local workspace for strategy research and backtesting.**
 
-Darwin brings strategy work and local backtesting together on your computer. It is designed to help you move from preparing a strategy to reviewing backtest results in one workspace.
+Work with strategies, run supported backtests, and review available results on your computer.
 
-With Darwin, you can:
+[Getting started with Darwin →](#start-with-darwin) · [Ask the community](https://github.com/quantatier-apps/community/discussions)
 
-- **Prepare strategy work** and configure supported backtests.
-- **Run backtests locally** using the historical data available to you.
-- **Review results**, including available statistics, charts, trades, and logs.
-- **Connect with Cloud** when your workflow uses supported Cloud features.
+### Cloud
 
-### ☁️ Cloud
+<a href="#connect-darwin-with-cloud"><img src="./quantacloud-wordmark.png" alt="Quantacloud — Cloud product introduction" width="220"></a>
 
-**A connected workspace for organizing strategy work and supported tasks.**
+**Your connected workspace for strategy work and supported tasks.**
 
-Cloud works alongside Darwin to help organize strategy work and coordinate supported tasks across connected devices.
+Organize strategy work and coordinate supported tasks with a connected Darwin device.
 
-With Cloud, you can:
-
-- **Organize strategy work** and manage completed versions.
-- **Connect a Darwin device** and check its connection status.
-- **Submit supported tasks** to a connected device and follow their progress.
-- **Review available task information and results.**
+[Getting started with Cloud →](#connect-darwin-with-cloud) · [Ask the community](https://github.com/quantatier-apps/community/discussions)
 
 > Available features and workflows depend on the product version and configuration.
 
 ## How It Works
 
-Darwin supports local workflows on your computer. When a workflow uses Cloud, a connected Darwin device can participate in supported tasks and return available status and results.
+Darwin supports local strategy and backtesting workflows on your computer. When connected, Cloud can coordinate supported tasks with a Darwin device.
 
+**Cloud → Darwin**  
+Send a supported task to a connected device.
 
-<p align="center">
-  <img src="./quantatier-simple-overview.png" width="450" alt="Darwin and Cloud product overview: local workflows, connected tasks, status, and results">
-</p>
+**Darwin → Cloud**  
+Return task status and available results.
 
-**Work locally**  
-Prepare your strategy and data, run a supported backtest in Darwin, and review the results on your computer.
-
-**Work with Cloud**  
-Prepare strategy work in Cloud, connect a Darwin device, and submit a supported task. Follow its status and review available results in Cloud.
-
-Cloud-coordinated workflows require the appropriate features, configuration, and device connection.
+Darwin can also be used locally without Cloud. Connected workflows require the appropriate features, configuration, and device connection.
 
 ## Getting Started
 
