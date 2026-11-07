@@ -32,59 +32,67 @@ a place to learn, ask questions, share ideas, and follow updates.
 
 ### 🖥️ Darwin
 
-**A local workspace for strategy workflows.**
+**Your local workspace for strategy management and backtesting.**
 
-Darwin brings together tools used on a user's computer to manage
-strategies, run backtests, and review results. It integrates existing
-quantitative software components into a local application experience.
+Darwin brings strategy tools and backtesting workflows together on
+your computer. You can work with local strategy files and historical
+data, run supported backtests, and review the results in the desktop
+workspace.
 
-Depending on the product version and configuration, Darwin workflows
-can include:
+Depending on your version and configuration, Darwin can help you:
 
-- **Strategy management** — organize local strategy files and versions.
-- **Backtesting** — run supported backtests with configured historical data.
-- **Results** — review backtest statistics and available results.
-- **Strategy instances** — manage supported strategy instances.
-- **Cloud connection** — connect a device for supported coordinated tasks.
+- **Work with strategies** — manage local strategy files and supported
+  strategy instances.
+- **Run local backtests** — configure a strategy, select historical
+  data, and start a backtest from the local workspace.
+- **Review results** — explore available statistics, charts, trades,
+  and logs.
+- **Connect to Cloud** — link your device for supported strategy and
+  task workflows.
+
+Local backtesting can be used independently of Cloud.
 
 ### ☁️ Cloud
 
-**A coordination environment for strategy work.**
+**A workspace for coordinating strategy versions and tasks.**
 
-Cloud is designed to work alongside Darwin. It provides workflows for
-organizing strategy versions, connecting devices, and managing supported
-tasks and their results.
+Cloud works alongside Darwin to help organize strategy work across
+your account and connected devices. Depending on your version and
+configuration, you can:
 
-Depending on the product version and configuration, Cloud workflows
-can include:
+- **Organize strategy work** — prepare strategies and manage
+  completed versions.
+- **Connect a device** — bind Darwin to your Cloud account and check
+  its connection status.
+- **Submit supported tasks** — prepare a task for a connected Darwin
+  device and follow its progress.
+- **Review results** — return to Cloud to review available task
+  information and results.
 
-- **Strategy versions** — organize versions for supported workflows.
-- **Devices** — connect and manage devices used with Darwin.
-- **Tasks** — prepare and track supported tasks.
-- **Results** — review task status and available results.
+Cloud-coordinated tasks require the appropriate Cloud and Darwin
+features, configuration, and device connection.
 
-### 🔄 How they work together
+### 🔄 Two ways to work
 
-Darwin and Cloud serve different parts of a workflow:
+**Local workflow**
 
-```text
-Prepare a strategy
-       ↓
-Organize a version and select a device
-       ↓
-Run a supported task in Darwin
-       ↓
-Review task status and available results
-```
+Prepare your strategy and data → run a backtest in Darwin → review
+the results locally.
 
-> Available features and steps depend on the product version and
-> configuration. Not every workflow requires Cloud.
+**Cloud-coordinated workflow**
+
+Prepare a completed strategy version in Cloud → connect Darwin →
+submit a supported task → follow its status and review available
+results.
+
+> Features, interface details, and available workflows depend on the
+> product version and configuration.
 
 ## Getting Started
 
 <div align="center">
 
-**Start with Darwin. Connect Cloud when your workflow needs it.**
+**Start locally. Connect when your workflow needs Cloud.**
 
 </div>
 
@@ -92,27 +100,41 @@ Product access, supported platforms, and setup instructions depend on
 the version provided to you. Please refer to the instructions
 accompanying your product distribution.
 
-### 🖥️ Start with Darwin
+### 🖥️ Run a local backtest in Darwin
 
-1. Obtain and set up Darwin using the instructions provided with
-   your version.
-2. Open Darwin on your computer.
-3. Prepare a strategy and the historical data needed for your backtest.
-4. Configure and run a backtest, then review its statistics and results.
+1. Open Darwin on your computer.
+2. Prepare a supported strategy and the historical data needed for
+   your backtest.
+3. Open the local backtesting tool and configure the backtest.
+4. Run the backtest.
+5. Review the available statistics, charts, trades, and logs.
 
-### ☁️ Connect with Cloud
+### ☁️ Connect Darwin to Cloud
 
 If your workflow uses Cloud:
 
 1. Sign in to your Cloud account.
-2. Create a device binding in Cloud.
-3. In Darwin's connection settings, enter the Cloud address and the
-   binding information provided for your device.
-4. Confirm that Darwin shows the device as connected.
-5. Select the appropriate strategy version and device for a supported
-   task, then review its status and results.
+2. Create device binding information for Darwin in Cloud.
+3. In Darwin's connection settings, enter your Cloud address and the
+   device binding information.
+4. Save the settings and confirm that Darwin shows the connection
+   as active.
 
-> The exact interface and steps may vary by version and configuration.
+### ▶️ Run a Cloud-coordinated task
+
+1. Prepare and complete a strategy version in Cloud.
+2. Make sure the associated Darwin device is connected.
+3. Configure and submit a supported task in Cloud.
+4. Follow the task status and review the available results.
+
+> Menu names and task options may vary by version. Keep account
+> credentials and device binding information private.
+
+### 💬 Need help?
+
+Visit [Discussions](https://github.com/quantatier-apps/community/discussions)
+to ask a question or share an idea. For a reproducible problem, open
+an [Issue](https://github.com/quantatier-apps/community/issues).
 
 ## Updates and Releases
 
