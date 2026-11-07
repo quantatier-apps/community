@@ -2,15 +2,14 @@
 
 # Quantatier
 
-### Integrated tools for quantitative research and strategy workflows
+**Integrated tools for quantitative research and strategy workflows**
 
-Bring strategy work, local execution, and coordination together.
+Darwin for local strategy work.  
+Cloud for connected workflows.
 
-[Products](#products) ·
-[How It Works](#how-darwin-and-cloud-work-together) ·
-[Getting Started](#getting-started) ·
-[Community](#community) ·
-[Updates](#updates-and-releases)
+[Explore Products](#products) · [How It Works](#how-it-works) · [Getting Started](#getting-started) · [Community](#community)
+
+[Join Discussions](https://github.com/quantatier-apps/community/discussions) · [Report an Issue](https://github.com/quantatier-apps/community/issues/new/choose)
 
 </div>
 
@@ -18,219 +17,125 @@ Bring strategy work, local execution, and coordination together.
 
 ## About Quantatier
 
-Quantatier develops integrated software products for quantitative
-research and strategy workflows.
+Quantatier brings together tools for quantitative strategy research and workflows.
 
-Our products bring together software components and practical tools
-to help users organize strategies, run backtests, and work with results.
-Darwin provides a local workspace; Cloud supports coordination across
-strategy versions, devices, and tasks.
+**Darwin** provides a local workspace for strategy work and backtesting. **Cloud** helps organize strategy work and coordinate supported tasks with connected Darwin devices.
 
-This repository is the public community home for Quantatier products:
-a place to learn, ask questions, share ideas, and follow updates.
+This community is a place to learn about the products, ask questions, share ideas, and follow updates.
 
 ## Products
 
 ### 🖥️ Darwin
 
-**Your local workspace for strategy management and backtesting.**
+**Your local workspace for strategy research and backtesting.**
 
-Darwin brings strategy tools and backtesting workflows together on
-your computer. You can work with local strategy files and historical
-data, run supported backtests, and review the results in the desktop
-workspace.
+Darwin brings strategy work and local backtesting together on your computer. It is designed to help you move from preparing a strategy to reviewing backtest results in one workspace.
 
-Depending on your version and configuration, Darwin can help you:
+With Darwin, you can:
 
-- **Work with strategies** — manage local strategy files and supported
-  strategy instances.
-- **Run local backtests** — configure a strategy, select historical
-  data, and start a backtest from the local workspace.
-- **Review results** — explore available statistics, charts, trades,
-  and logs.
-- **Connect to Cloud** — link your device for supported strategy and
-  task workflows.
-
-Local backtesting can be used independently of Cloud.
+- **Prepare strategy work** and configure supported backtests.
+- **Run backtests locally** using the historical data available to you.
+- **Review results**, including available statistics, charts, trades, and logs.
+- **Connect with Cloud** when your workflow uses supported Cloud features.
 
 ### ☁️ Cloud
 
-**A workspace for coordinating strategy versions and tasks.**
+**A connected workspace for organizing strategy work and supported tasks.**
 
-Cloud works alongside Darwin to help organize strategy work across
-your account and connected devices. Depending on your version and
-configuration, you can:
+Cloud works alongside Darwin to help organize strategy work and coordinate supported tasks across connected devices.
 
-- **Organize strategy work** — prepare strategies and manage
-  completed versions.
-- **Connect a device** — bind Darwin to your Cloud account and check
-  its connection status.
-- **Submit supported tasks** — prepare a task for a connected Darwin
-  device and follow its progress.
-- **Review results** — return to Cloud to review available task
-  information and results.
+With Cloud, you can:
 
-Cloud-coordinated tasks require the appropriate Cloud and Darwin
-features, configuration, and device connection.
+- **Organize strategy work** and manage completed versions.
+- **Connect a Darwin device** and check its connection status.
+- **Submit supported tasks** to a connected device and follow their progress.
+- **Review available task information and results.**
 
-### 🔄 Two ways to work
+> Available features and workflows depend on the product version and configuration.
 
-**Local workflow**
+## How It Works
 
-Prepare your strategy and data → run a backtest in Darwin → review
-the results locally.
+Darwin supports local workflows on your computer. When a workflow uses Cloud, a connected Darwin device can participate in supported tasks and return available status and results.
 
-**Cloud-coordinated workflow**
-
-Prepare a completed strategy version in Cloud → connect Darwin →
-submit a supported task → follow its status and review available
-results.
-
-> Features, interface details, and available workflows depend on the
-> product version and configuration.
-
-## How Darwin and Cloud Work Together
 
 ```mermaid
-flowchart LR
-    U["👤 User"] --> D["🖥️ Darwin<br/>Local workspace"]
-    U --> C["☁️ Cloud<br/>Strategy and task coordination"]
+flowchart TB
+    User["👤 User"]
+    Darwin["🖥️ Darwin<br/>Local workspace"]
+    Cloud["☁️ Cloud<br/>Strategy and task coordination"]
+    Local["📊 Local backtesting<br/>Review results locally"]
 
-    C -->|"Supported tasks"| D
-    D -->|"Task status and available results"| C
-
-    D --- L["📊 Local backtesting"]
-
-    classDef product fill:#eaf3ff,stroke:#4778b8,color:#17365d
-    classDef user fill:#f4f6f8,stroke:#95a1b2,color:#273444
-
-    class D,C product
-    class U,L user
+    User --> Darwin
+    User --> Cloud
+    Darwin --> Local
+    Cloud <-->|"Tasks · status · results"| Darwin
 ```
 
-Darwin supports local strategy and backtesting workflows. When a
-workflow uses Cloud, a connected Darwin device can participate in
-supported tasks and return available status and results.
+**Work locally**  
+Prepare your strategy and data, run a supported backtest in Darwin, and review the results on your computer.
 
-> Available features and workflows depend on the product version
-> and configuration.
+**Work with Cloud**  
+Prepare strategy work in Cloud, connect a Darwin device, and submit a supported task. Follow its status and review available results in Cloud.
 
-
+Cloud-coordinated workflows require the appropriate features, configuration, and device connection.
 
 ## Getting Started
 
-<div align="center">
+### Start with Darwin
 
-**Start locally. Connect when your workflow needs Cloud.**
+1. Open the Darwin version provided to you.
+2. Prepare a supported strategy and the historical data needed for your backtest.
+3. Configure and run a local backtest.
+4. Review the available results, charts, trades, and logs.
 
-</div>
+### Connect Darwin with Cloud
 
-Product access, supported platforms, and setup instructions depend on
-the version provided to you. Please refer to the instructions
-accompanying your product distribution.
+1. Open Cloud and prepare your strategy work.
+2. Connect a Darwin device using the instructions provided with your version.
+3. Submit a supported task to the connected device.
+4. Follow its progress and review available results.
 
-### 🖥️ Run a local backtest in Darwin
-
-1. Open Darwin on your computer.
-2. Prepare a supported strategy and the historical data needed for
-   your backtest.
-3. Open the local backtesting tool and configure the backtest.
-4. Run the backtest.
-5. Review the available statistics, charts, trades, and logs.
-
-### ☁️ Connect Darwin to Cloud
-
-If your workflow uses Cloud:
-
-1. Sign in to your Cloud account.
-2. Create device binding information for Darwin in Cloud.
-3. In Darwin's connection settings, enter your Cloud address and the
-   device binding information.
-4. Save the settings and confirm that Darwin shows the connection
-   as active.
-
-### ▶️ Run a Cloud-coordinated task
-
-1. Prepare and complete a strategy version in Cloud.
-2. Make sure the associated Darwin device is connected.
-3. Configure and submit a supported task in Cloud.
-4. Follow the task status and review the available results.
-
-> Menu names and task options may vary by version. Keep account
-> credentials and device binding information private.
-
-### 💬 Need help?
-
-Visit [Discussions](https://github.com/quantatier-apps/community/discussions)
-to ask a question or share an idea. For a reproducible problem, open
-an [Issue](https://github.com/quantatier-apps/community/issues).
-
-## Updates and Releases
-
-Product updates are shared through this repository when they are ready
-to be published. Release information may include:
-
-- User-facing changes and improvements.
-- Fixes and known issues.
-- Compatibility and upgrade considerations.
-- Supported platforms and access information.
-
-📦 [View Releases](https://github.com/quantatier-apps/community/releases)
-
-Ideas and potential integrations discussed by the community are subject
-to evaluation and are not release commitments.
+Product access, supported platforms, and setup instructions depend on the version provided to you. Refer to the instructions accompanying your product distribution.
 
 ## Community
 
-Quantatier grows through practical use and feedback. You are welcome to
-participate in the way that works for you:
+Quantatier is built around practical workflows and feedback from its users. Whether you are exploring the products or using them in your own workflow, you are welcome to participate.
 
-| I want to… | Where to go |
-| --- | --- |
-| Ask a question | [Discussions](https://github.com/quantatier-apps/community/discussions) |
-| Share an experience or idea | [Discussions](https://github.com/quantatier-apps/community/discussions) |
-| Report a reproducible problem | [Issues](https://github.com/quantatier-apps/community/issues) |
-| Suggest a specific improvement | [Issues](https://github.com/quantatier-apps/community/issues) |
+### 💬 Discussions
 
-When reporting a problem, please include the product version, relevant
-environment, steps to reproduce, and what you expected to happen.
+Use [Discussions](https://github.com/quantatier-apps/community/discussions) to:
 
-## Contributions
+- Ask questions about Darwin and Cloud.
+- Share your experience and ideas.
+- Discuss workflows and possible improvements.
 
-Contributions to public documentation, translations, and examples are
-welcome. Where existing code is explicitly made available for
-contribution, improvements to that code are welcome too.
+New here? Start with our [community welcome post](https://github.com/quantatier-apps/community/discussions/1).
 
-For a substantial change, please start a discussion or open an issue
-first so the problem and proposed direction can be understood before
-implementation.
+### 🐛 Issues
 
-This repository is the public community space for Quantatier products.
-Product components and distribution materials are shared according to
-their respective availability and terms.
+Use [Issues](https://github.com/quantatier-apps/community/issues) to report a problem or suggest a specific improvement.
 
-## Privacy
+When reporting an issue, please describe what you were trying to do, what happened, and any steps that help explain the problem. **Do not include passwords, API keys, account information, private strategies, or other sensitive data.**
 
-Please review information before posting. Do not include:
+[Report an issue](https://github.com/quantatier-apps/community/issues/new/choose)
 
-- Passwords, API keys, tokens, or broker credentials.
-- Account identifiers, personal information, or transaction records.
-- Private strategies or commercially sensitive materials.
-- Restricted market data or logs containing sensitive information.
+### 🤝 Contribute
 
-If a problem cannot be described safely in public, do not post the
-sensitive material in the repository.
+Community contributions can begin with a clear question, a reproducible issue, a suggestion, or an improvement to public documentation.
 
-## Third-Party Software
+If you would like to propose a documentation change or share an example, start a discussion so we can understand the context and decide how best to include it.
 
-Quantatier products integrate software components from different sources.
-Some components are derived from or built alongside the
-[vn.py / VeighNa project](https://github.com/vnpy/vnpy).
+## Updates and Releases
 
-Quantatier independently maintains its products. Third-party components
-remain subject to their respective copyright notices, licenses, and
-distribution requirements. The components included in a particular
-distribution are documented with that distribution.
+Product news and community updates can be shared through [Discussions](https://github.com/quantatier-apps/community/discussions).
+
+You can check [Releases](https://github.com/quantatier-apps/community/releases) for release information when it is published. Availability and distribution details may vary by product and version.
+
+## Third-Party Projects
+
+Quantatier products may incorporate or integrate third-party projects. Those projects remain the property of their respective owners and are subject to their own licenses.
+
+Applicable notices and license information are provided with the relevant distribution.
 
 ---
 
@@ -238,6 +143,8 @@ distribution are documented with that distribution.
 
 **Quantatier**
 
-Built around practical workflows and community feedback.
+Built for practical quantitative workflows.
+
+[Discussions](https://github.com/quantatier-apps/community/discussions) · [Issues](https://github.com/quantatier-apps/community/issues) · [Releases](https://github.com/quantatier-apps/community/releases)
 
 </div>
