@@ -18,8 +18,8 @@ specific product version.
 
 This repository is the community home for Quantatier products.
 
-- Ask questions and share ideas in Discussions.
-- Report reproducible problems or suggest improvements through Issues.
+- [Ask questions and share ideas](https://github.com/quantatier-apps/community/discussions).
+- [Report a problem or suggest an improvement](https://github.com/quantatier-apps/community/issues).
 - Help improve documentation, translations, examples, and any code
   explicitly made available for contribution.
 
