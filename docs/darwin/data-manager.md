@@ -10,7 +10,8 @@ Components integrated into a distribution remain subject to their respective not
 
 ## Updates
 
-Check [Releases](https://github.com/quantatier-apps/community/releases) for published Darwin updates and related data-management changes.
+- [Initial community notes — Darwin client 0.21.2 / Data Manager component 1.2.0](https://github.com/quantatier-apps/community/discussions/3) — the initial record of the existing Data Manager integration.
+- [Releases](https://github.com/quantatier-apps/community/releases) — future Darwin updates and related data-management changes.
 
 ## Questions and feedback
 
