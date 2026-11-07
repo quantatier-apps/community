@@ -11,24 +11,27 @@ backtesting, and execution workflows.
 **Quantacloud** supports coordination of strategy versions, devices,
 and tasks alongside Quantadarwin.
 
-Product availability, supported platforms, and limitations will be
-described in the relevant release information.
+Supported features, platforms, and availability depend on the
+specific product version.
 
 ## Community
 
 This repository is the community home for Quantatier products.
 
-- Open an issue to report a reproducible problem or suggest an improvement.
-- Contributions to documentation, translations, examples, and explicitly
-  open code are welcome.
-
-Please remove credentials, account information, private strategies,
-personal data, and sensitive logs before posting.
+- Ask questions and share ideas in Discussions.
+- Report reproducible problems or suggest improvements through Issues.
+- Help improve documentation, translations, examples, and any code
+  explicitly made available for contribution.
 
 ## Updates
 
 Product news and release information will be shared as they become
 available. Future ideas and integrations are subject to evaluation.
+
+## Privacy
+
+Please do not post credentials, account information, private strategies,
+personal data, restricted market data, or sensitive logs.
 
 ## Third-party software
 
