@@ -58,7 +58,7 @@ With Cloud, you can:
 Darwin supports local workflows on your computer. When a workflow uses Cloud, a connected Darwin device can participate in supported tasks and return available status and results.
 
 
-![Darwin and Cloud product overview: local workflows, connected tasks, status, and results](./quantatier-overview-v3.png)
+![Darwin and Cloud product overview: local workflows, connected tasks, status, and results](./quantatier-simple-overview.png)
 
 **Work locally**  
 Prepare your strategy and data, run a supported backtest in Darwin, and review the results on your computer.
