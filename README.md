@@ -33,6 +33,10 @@ This community is a place to learn about the products, ask questions, share idea
 
 Work with strategies, run supported backtests, and review available results on your computer.
 
+- [Local Backtesting](docs/darwin/local-backtesting.md) — run supported backtests locally.
+- [Data Manager](docs/darwin/data-manager.md) — work with local historical data.
+- [Data Recorder](docs/darwin/data-recorder.md) — record supported live market data locally.
+
 [Getting started with Darwin →](#start-with-darwin) · [Ask the community](https://github.com/quantatier-apps/community/discussions)
 
 ### Cloud
@@ -42,6 +46,9 @@ Work with strategies, run supported backtests, and review available results on y
 **Your connected workspace for strategy work and supported tasks.**
 
 Organize strategy work and coordinate supported tasks with a connected Darwin device.
+
+- [Strategy Workspace](docs/cloud/strategy-workspace.md) — work with strategies and versions.
+- [Tasks & Results](docs/cloud/tasks-and-results.md) — submit supported tasks and review available results.
 
 [Getting started with Cloud →](#connect-darwin-with-cloud) · [Ask the community](https://github.com/quantatier-apps/community/discussions)
 
