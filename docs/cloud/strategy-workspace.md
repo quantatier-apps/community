@@ -2,11 +2,7 @@
 
 Part of **Quantatier · Cloud**
 
-Strategy Workspace helps you organize strategy work, edit and save supported strategies, and work with strategy versions.
-
-Depending on your version and configuration, you can prepare strategy work and continue to a supported backtesting workflow. Saving strategy work and submitting a task are separate steps.
-
-Available features and access depend on your version and configuration. Refer to the instructions provided with your distribution.
+Information about Strategy Workspace is being reviewed. Availability and supported workflows will be shared once confirmed.
 
 ## Updates
 
