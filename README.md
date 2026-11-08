@@ -86,9 +86,9 @@ Quantatier’s development uses libraries and frameworks including [PySide6](htt
 
 Some Darwin components are derived from or incorporate [vn.py](https://github.com/vnpy/vnpy). We thank its authors and contributors.
 
-### Projects of Interest
+### References and Future Exploration
 
-Quantatier also draws inspiration from the wider quantitative community, including [vectorbt](https://github.com/polakowo/vectorbt), [Zipline](https://github.com/quantopian/zipline) from Quantopian, and Microsoft’s [Qlib](https://github.com/microsoft/qlib). These projects are not currently integrated; their mention does not imply endorsement or partnership.
+Quantatier also draws inspiration from the wider quantitative community, including [vectorbt](https://github.com/polakowo/vectorbt), [Zipline](https://github.com/quantopian/zipline), and Microsoft’s [Qlib](https://github.com/microsoft/qlib). These projects are not currently integrated. Their inclusion does not imply endorsement or partnership.
 
 We thank the authors and contributors of these projects for their work.
 
