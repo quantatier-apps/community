@@ -78,6 +78,20 @@ Quantatier welcomes inquiries from service providers, integrators, and other pro
 
 Quantatier products may incorporate or integrate third-party projects. Those projects remain the property of their respective owners and are subject to their own licenses. Applicable notices and license information are provided with the relevant distribution.
 
+### Libraries and Frameworks
+
+Quantatier’s development uses libraries and frameworks including [PySide6](https://doc.qt.io/qtforpython/), [pyqtgraph](https://www.pyqtgraph.org/), [NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [Vue](https://vuejs.org/), and [Element Plus](https://element-plus.org/).
+
+### Quantitative Projects
+
+Some Darwin components are derived from or incorporate [vn.py](https://github.com/vnpy/vnpy). We thank its authors and contributors.
+
+### Projects of Interest
+
+Quantatier also draws inspiration from the wider quantitative community, including [vectorbt](https://github.com/polakowo/vectorbt), [Zipline](https://github.com/quantopian/zipline) from Quantopian, and Microsoft’s [Qlib](https://github.com/microsoft/qlib). These projects are not currently integrated; their mention does not imply endorsement or partnership.
+
+We thank the authors and contributors of these projects for their work.
+
 ---
 
 <div align="center">
