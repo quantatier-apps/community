@@ -4,7 +4,7 @@
 
 Tools for quantitative research and strategy workflows
 
-<sub><a href="#darwin">Darwin</a> &nbsp; · &nbsp; <a href="#cloud">Cloud</a> &nbsp; · &nbsp; <a href="https://github.com/quantatier-apps/community/discussions">Community</a></sub>
+<a href="#darwin"><img src="./quantatier-badge-darwin.png" width="72" height="22" alt="Darwin"></a> &nbsp; <a href="#cloud"><img src="./quantatier-badge-cloud.png" width="68" height="22" alt="Cloud"></a> &nbsp; <a href="https://github.com/quantatier-apps/community/discussions"><img src="./quantatier-badge-community.png" width="106" height="22" alt="Community"></a>
 
 <sub><a href="#getting-started">Getting Started</a> &nbsp; · &nbsp; <a href="https://github.com/quantatier-apps/community/releases">Releases</a> &nbsp; · &nbsp; <a href="https://github.com/quantatier-apps/community/issues/new/choose">Report an Issue</a></sub>
 
