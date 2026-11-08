@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1><img src="./quantatier-header-q-aligned.png" width="42" alt="">Quantatier</h1>
+<h1><img src="./quantatier-header-q-corner-v1.1r2.png" width="42" alt="">Quantatier</h1>
 
 Tools for quantitative research and strategy workflows
 
