@@ -1,10 +1,10 @@
 <div align="center">
 
-<h1><img src="https://avatars.githubusercontent.com/u/353547132?s=200&amp;v=4" width="42" alt="">Quantatier</h1>
+<h1><img src="./quantatier-header-q-aligned.png" width="42" alt="">Quantatier</h1>
 
 Tools for quantitative research and strategy workflows
 
-<a href="#darwin"><img src="./quantatier-badge-darwin.png" width="72" height="22" alt="Darwin"></a> &nbsp; <a href="#cloud"><img src="./quantatier-badge-cloud.png" width="68" height="22" alt="Cloud"></a> &nbsp; <a href="https://github.com/quantatier-apps/community/discussions"><img src="./quantatier-badge-community.png" width="106" height="22" alt="Community"></a>
+<a href="#darwin"><img src="./quantatier-badge-darwin-compact.png" width="66" height="26" alt="Darwin"></a>&#8201;&#8201;<a href="#cloud"><img src="./quantatier-badge-cloud-compact.png" width="62" height="26" alt="Cloud"></a>&#8201;&#8201;<a href="https://github.com/quantatier-apps/community/discussions"><img src="./quantatier-badge-community-compact.png" width="96" height="26" alt="Community"></a>
 
 <sub><a href="#getting-started">Getting Started</a> &nbsp; · &nbsp; <a href="https://github.com/quantatier-apps/community/releases">Releases</a> &nbsp; · &nbsp; <a href="https://github.com/quantatier-apps/community/issues/new/choose">Report an Issue</a></sub>
 
