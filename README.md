@@ -5,7 +5,7 @@
 **Integrated tools for quantitative research and strategy workflows**
 
 Darwin for local strategy work.  
-Cloud for connected workflows.
+Cloud is part of Quantatier.
 
 [Products](#products) · [How It Works](#how-it-works) · [Getting Started](#getting-started) · [Releases](https://github.com/quantatier-apps/community/releases) · [Repository](https://github.com/quantatier-apps/community)
 
@@ -19,7 +19,7 @@ Cloud for connected workflows.
 
 Quantatier brings together tools for quantitative strategy research and workflows.
 
-**Darwin** provides a local workspace for strategy work and backtesting. **Cloud** helps organize strategy work and coordinate supported tasks with connected Darwin devices.
+**Darwin** provides a local workspace for strategy work and backtesting. **Cloud** is part of Quantatier.
 
 This community is a place to learn about the products, ask questions, share ideas, and follow updates.
 
@@ -41,30 +41,20 @@ Work with strategies, run supported backtests, and review available results on y
 
 ### Cloud
 
-<a href="#connect-darwin-with-cloud"><img src="./quantacloud-wordmark.png" alt="Quantacloud — Cloud product introduction" width="220"></a>
+<a href="#cloud"><img src="./quantacloud-wordmark.png" alt="Quantacloud — Cloud product introduction" width="220"></a>
 
-**Your connected workspace for strategy work and supported tasks.**
+Cloud is part of Quantatier. Details about available workflows will be shared after verification.
 
-Organize strategy work and coordinate supported tasks with a connected Darwin device.
+- [Strategy Workspace](docs/cloud/strategy-workspace.md)
+- [Tasks & Results](docs/cloud/tasks-and-results.md)
 
-- [Strategy Workspace](docs/cloud/strategy-workspace.md) — work with strategies and versions.
-- [Tasks & Results](docs/cloud/tasks-and-results.md) — submit supported tasks and review available results.
-
-[Getting started with Cloud →](#connect-darwin-with-cloud) · [Ask the community](https://github.com/quantatier-apps/community/discussions)
+[Ask the community](https://github.com/quantatier-apps/community/discussions)
 
 > Available features and workflows depend on the product version and configuration.
 
 ## How It Works
 
-Darwin supports local strategy and backtesting workflows on your computer. When connected, Cloud can coordinate supported tasks with a Darwin device.
-
-**Cloud → Darwin**  
-Send a supported task to a connected device.
-
-**Darwin → Cloud**  
-Return task status and available results.
-
-Darwin can also be used locally without Cloud. Connected workflows require the appropriate features, configuration, and device connection.
+Darwin supports local strategy and backtesting workflows on your computer.
 
 ## Getting Started
 
@@ -74,13 +64,6 @@ Darwin can also be used locally without Cloud. Connected workflows require the a
 2. Prepare a supported strategy and the historical data needed for your backtest.
 3. Configure and run a local backtest.
 4. Review the available results, charts, trades, and logs.
-
-### Connect Darwin with Cloud
-
-1. Open Cloud and prepare your strategy work.
-2. Connect a Darwin device using the instructions provided with your version.
-3. Submit a supported task to the connected device.
-4. Follow its progress and review available results.
 
 Product access, supported platforms, and setup instructions depend on the version provided to you. Refer to the instructions accompanying your product distribution.
 
@@ -114,9 +97,7 @@ If you would like to propose a documentation change or share an example, start a
 
 ## Updates and Releases
 
-Product news and community updates can be shared through [Discussions](https://github.com/quantatier-apps/community/discussions).
-
-You can check [Releases](https://github.com/quantatier-apps/community/releases) for release information when it is published. Availability and distribution details may vary by product and version.
+For existing product notes, visit [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements). Future product releases will appear under [Releases](https://github.com/quantatier-apps/community/releases) when published.
 
 ## Third-Party Projects
 
