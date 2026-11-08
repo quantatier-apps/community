@@ -80,7 +80,7 @@ Quantatier products may incorporate or integrate third-party projects. Those pro
 
 ### Libraries and Frameworks
 
-Quantatier’s development uses libraries and frameworks including [PySide6](https://doc.qt.io/qtforpython/), [pyqtgraph](https://www.pyqtgraph.org/), [NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [Vue](https://vuejs.org/), and [Element Plus](https://element-plus.org/).
+Quantatier’s development uses libraries and frameworks including [PySide6](https://doc.qt.io/qtforpython/), [pyqtgraph](https://www.pyqtgraph.org/), [NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [Vue](https://vuejs.org/), and [Element Plus](https://element-plus.org/). We thank their authors and contributors.
 
 ### Quantitative Projects
 
