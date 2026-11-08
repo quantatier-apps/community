@@ -27,7 +27,7 @@ This community is a place to learn about the products, ask questions, share idea
 
 ### Darwin
 
-<a href="#start-with-darwin"><picture><source media="(prefers-color-scheme: dark)" srcset="./quantadarwin-wordmark.png"><img src="./quantadarwin-light-preview.png" alt="Quantadarwin — Darwin product introduction" width="220"></picture></a>
+<a href="#start-with-darwin"><img src="./quantadarwin-logo-white-plate.png" alt="Quantadarwin — Darwin product introduction" width="220"></a>
 
 **Your local workspace for strategy research and backtesting.**
 
@@ -41,7 +41,7 @@ Work with strategies, run supported backtests, and review available results on y
 
 ### Cloud
 
-<a href="#cloud"><picture><source media="(prefers-color-scheme: dark)" srcset="./quantacloud-wordmark.png"><img src="./quantacloud-light-preview.png" alt="Quantacloud — Cloud product introduction" width="220"></picture></a>
+<a href="#cloud"><img src="./quantacloud-logo-white-plate.png" alt="Quantacloud — Cloud product introduction" width="220"></a>
 
 Cloud is part of Quantatier. Details about available workflows will be shared after verification.
 
