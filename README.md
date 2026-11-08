@@ -1,15 +1,12 @@
 <div align="center">
 
-# Quantatier
+<h1><img src="https://avatars.githubusercontent.com/u/353547132?s=200&amp;v=4" width="42" alt="">Quantatier</h1>
 
-**Integrated tools for quantitative research and strategy workflows**
+Tools for quantitative research and strategy workflows
 
-Darwin for local strategy work.  
-Cloud is part of Quantatier.
+<sub><a href="#darwin">Darwin</a> &nbsp; · &nbsp; <a href="#cloud">Cloud</a> &nbsp; · &nbsp; <a href="https://github.com/quantatier-apps/community/discussions">Community</a></sub>
 
-[Products](#products) · [How It Works](#how-it-works) · [Getting Started](#getting-started) · [Releases](https://github.com/quantatier-apps/community/releases) · [Repository](https://github.com/quantatier-apps/community)
-
-[Join Discussions](https://github.com/quantatier-apps/community/discussions) · [Report an Issue](https://github.com/quantatier-apps/community/issues/new/choose)
+<sub><a href="#getting-started">Getting Started</a> &nbsp; · &nbsp; <a href="https://github.com/quantatier-apps/community/releases">Releases</a> &nbsp; · &nbsp; <a href="https://github.com/quantatier-apps/community/issues/new/choose">Report an Issue</a></sub>
 
 </div>
 
