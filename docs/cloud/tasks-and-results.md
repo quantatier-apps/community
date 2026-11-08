@@ -2,11 +2,7 @@
 
 Part of **Quantatier · Cloud**
 
-Cloud can coordinate supported backtest tasks with a connected Darwin device and make available task status and results accessible for review.
-
-Depending on your version and configuration, you can prepare strategy work, submit a supported task to a connected device, follow its progress, and review available results. Connected workflows require the appropriate Cloud and Darwin features, configuration, and device connection.
-
-Local backtesting in Darwin can also be used without Cloud. Product access and available workflows depend on the version provided to you.
+Information about Tasks & Results is being reviewed. Availability and supported workflows will be shared once confirmed.
 
 ## Updates
 
