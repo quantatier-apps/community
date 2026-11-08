@@ -6,7 +6,7 @@ Tools for quantitative research and strategy workflows
 
 <a href="#darwin"><img src="./quantatier-badge-darwin-compact.png" width="66" height="26" alt="Darwin"></a>&#8201;&#8201;<a href="#cloud"><img src="./quantatier-badge-cloud-compact.png" width="62" height="26" alt="Cloud"></a>&#8201;&#8201;<a href="https://github.com/quantatier-apps/community/discussions"><img src="./quantatier-badge-community-compact.png" width="96" height="26" alt="Community"></a>
 
-<sub><a href="#getting-started">Getting Started</a>&#8201;·&#8201;<a href="https://github.com/quantatier-apps/community/releases">Releases</a>&#8201;·&#8201;<a href="https://github.com/quantatier-apps/community/issues/new/choose">Report&#160;an&#160;Issue</a></sub>
+<sub><a href="#getting-started">Getting Started</a>&#8201;·&#8201;<a href="https://github.com/quantatier-apps/community/discussions/categories/announcements">Updates</a>&#8201;·&#8201;<a href="https://github.com/quantatier-apps/community/issues/new/choose">Report&#160;an&#160;Issue</a></sub>
 
 </div>
 
@@ -14,9 +14,7 @@ Tools for quantitative research and strategy workflows
 
 ## About Quantatier
 
-Quantatier brings together tools for quantitative strategy research and workflows.
-
-**Darwin** provides a local workspace for strategy work and backtesting. **Cloud** is part of Quantatier.
+Quantatier brings together tools for quantitative strategy research and workflows. **Darwin** provides a local workspace for strategy work and backtesting. **Cloud** is part of Quantatier.
 
 This community is a place to learn about the products, ask questions, share ideas, and follow updates.
 
@@ -45,13 +43,7 @@ Cloud is part of Quantatier. Details about available workflows will be shared af
 - [Strategy Workspace](docs/cloud/strategy-workspace.md)
 - [Tasks & Results](docs/cloud/tasks-and-results.md)
 
-[Ask the community](https://github.com/quantatier-apps/community/discussions)
-
-> Available features and workflows depend on the product version and configuration.
-
-## How It Works
-
-Darwin supports local strategy and backtesting workflows on your computer.
+Available features and workflows depend on the product version and configuration.
 
 ## Getting Started
 
@@ -64,52 +56,34 @@ Darwin supports local strategy and backtesting workflows on your computer.
 
 Product access, supported platforms, and setup instructions depend on the version provided to you. Refer to the instructions accompanying your product distribution.
 
-## Community
-
-Quantatier is built around practical workflows and feedback from its users. Whether you are exploring the products or using them in your own workflow, you are welcome to participate.
-
-### 💬 Discussions
-
-Use [Discussions](https://github.com/quantatier-apps/community/discussions) to:
-
-- Ask questions about Darwin and Cloud.
-- Share your experience and ideas.
-- Discuss workflows and possible improvements.
-
-New here? Start with our [community welcome post](https://github.com/quantatier-apps/community/discussions/1).
-
-### 🐛 Issues
-
-Use [Issues](https://github.com/quantatier-apps/community/issues) to report a problem or suggest a specific improvement.
-
-When reporting an issue, please describe what you were trying to do, what happened, and any steps that help explain the problem. **Do not include passwords, API keys, account information, private strategies, or other sensitive data.**
-
-[Report an issue](https://github.com/quantatier-apps/community/issues/new/choose)
-
-### 🤝 Contribute
-
-Community contributions can begin with a clear question, a reproducible issue, a suggestion, or an improvement to public documentation.
-
-If you would like to propose a documentation change or share an example, start a discussion so we can understand the context and decide how best to include it.
-
 ## Updates and Releases
 
-For existing product notes, visit [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements). Future product releases will appear under [Releases](https://github.com/quantatier-apps/community/releases) when published.
+Find product notes and updates in [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements).
+
+## Community
+
+### Help and Feedback
+
+For questions, ideas, and workflow discussions, visit [Discussions](https://github.com/quantatier-apps/community/discussions). To report a specific problem or suggest an improvement, use [Issues](https://github.com/quantatier-apps/community/issues). Our [welcome post](https://github.com/quantatier-apps/community/discussions/1) is a good place to start.
+
+When reporting a problem, describe what you were trying to do, what happened, and any steps that help explain it. **Do not share passwords, API keys, account information, private strategies, or other sensitive data in public.**
+
+Community contributions can begin with a question, a reproducible issue, a suggestion, or an improvement to public documentation. To propose a documentation change or share an example, start a discussion first.
+
+## Business Inquiries
+
+Quantatier welcomes inquiries from service providers, integrators, and other prospective business partners about product use and integration needs. Contact details will be shared when available. Please do not post confidential business information in public discussions or issues.
 
 ## Third-Party Projects
 
-Quantatier products may incorporate or integrate third-party projects. Those projects remain the property of their respective owners and are subject to their own licenses.
-
-Applicable notices and license information are provided with the relevant distribution.
+Quantatier products may incorporate or integrate third-party projects. Those projects remain the property of their respective owners and are subject to their own licenses. Applicable notices and license information are provided with the relevant distribution.
 
 ---
 
 <div align="center">
 
-**Quantatier**
+**Quantatier** · Built for practical quantitative workflows.
 
-Built for practical quantitative workflows.
-
-[Discussions](https://github.com/quantatier-apps/community/discussions) · [Issues](https://github.com/quantatier-apps/community/issues) · [Releases](https://github.com/quantatier-apps/community/releases)
+[Updates](https://github.com/quantatier-apps/community/discussions/categories/announcements) · [Discussions](https://github.com/quantatier-apps/community/discussions) · [Issues](https://github.com/quantatier-apps/community/issues) · [Business Inquiries](#business-inquiries)
 
 </div>
