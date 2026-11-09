@@ -72,7 +72,11 @@ Community contributions can begin with a question, a reproducible issue, a sugge
 
 ## Business Inquiries
 
-Quantatier welcomes inquiries from service providers, integrators, and other prospective business partners about product use and integration needs. Contact details will be shared when available. Please do not post confidential business information in public discussions or issues.
+For custom development, integration, or other business inquiries, please contact [qtstrategy_web@foxmail.com](mailto:qtstrategy_web@foxmail.com).
+
+For product questions and feedback, visit [Discussions](https://github.com/quantatier-apps/community/discussions) or [Issues](https://github.com/quantatier-apps/community/issues).
+
+Please do not post confidential business information in public discussions or issues.
 
 ## Third-Party Projects
 
