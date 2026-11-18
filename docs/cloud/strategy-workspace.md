@@ -11,9 +11,9 @@ Strategy Workspace is where you prepare strategy content, manage versions and pa
 3. Complete the strategy version you want to backtest and review its parameters.
 4. Prepare the supported strategy for the intended backtesting workflow.
 
-For a Darwin backtest, Cloud automatically prepares the selected completed strategy version on the connected device. Confirm that the required historical data is available there. Preparing or saving a draft does not itself execute a backtest.
+For tasks executed by Backtest Pro, Cloud automatically prepares the selected completed strategy version on the connected Darwin device. Confirm that the required historical data is available there. Preparing or saving a draft does not itself execute a backtest.
 
-For following execution and reviewing returned results, see [Tasks & Results](tasks-and-results.md). For the Darwin executor, see [CTA Backtester Plus](../darwin/cta-backtester-plus.md).
+For following execution and reviewing returned results, see [Tasks & Results](tasks-and-results.md). For the Darwin executor, see [Backtest Pro](../darwin/cta-backtester-plus.md).
 
 ## Help
 

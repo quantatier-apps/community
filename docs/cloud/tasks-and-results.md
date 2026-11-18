@@ -13,7 +13,7 @@ Tasks & Results helps you follow backtesting tasks, inspect their details, and r
 
 A task accepted by Cloud has not necessarily completed on Darwin. Check its execution status and available results. If a batch contains both successful and failed tasks, distinguish the results returned by successful tasks from the failed work.
 
-For tasks executed locally on Darwin, see [CTA Backtester Plus](../darwin/cta-backtester-plus.md). For preparing strategy content, see [Strategy Workspace](strategy-workspace.md).
+For tasks executed locally on Darwin, see [Backtest Pro](../darwin/cta-backtester-plus.md). For preparing strategy content, see [Strategy Workspace](strategy-workspace.md).
 
 ## Historical result compatibility
 
