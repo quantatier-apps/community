@@ -1,20 +1,30 @@
-# Local Backtesting
+# CTA Backtester
 
 Part of **Quantatier · Darwin**
 
-Local Backtesting provides a workspace for running supported strategy backtests with local historical data and reviewing available results.
+CTA Backtester provides a graphical workspace for running supported CTA strategies against local historical data and reviewing results. This workflow can be used without Cloud.
 
-Depending on your version and configuration, you can prepare a supported strategy and historical data, configure and run a backtest, and review available statistics, charts, trades, and logs. Local backtesting can be used without Cloud.
+## Before you begin
 
-Availability, data requirements, and setup instructions depend on the version provided to you. Refer to the instructions accompanying your distribution.
+Have a compatible strategy class and the required historical data available. Use [Data Manager](data-manager.md) to inspect your data coverage. The app must be installed and enabled in **Application center**.
 
-## Updates
+## Basic workflow
 
-- [Initial community notes — Darwin client 0.21.2 / Backtesting component 1.3.0](https://github.com/quantatier-apps/community/discussions/2) — the initial record of the existing Local Backtesting integration.
-- [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements) — future product updates and related backtesting changes.
+1. Open the enabled CTA Backtester app.
+2. Select a strategy, instrument, interval, and date range.
+3. Configure strategy parameters and backtest settings, including capital, commission, and slippage.
+4. Run the backtest and review the available statistics, charts, orders, trades, daily results, and logs.
 
-## Questions and feedback
+Parameter optimization controls are available where supported by your product configuration, strategy, and data.
 
-Ask questions in [Discussions](https://github.com/quantatier-apps/community/discussions), or [report an issue](https://github.com/quantatier-apps/community/issues/new/choose). Mention **Darwin / Local Backtesting** and your product version when relevant. Do not post private strategies, credentials, account details, or restricted data.
+## Common questions
+
+If a strategy is missing, check that its class is available locally. If a backtest has no data or stops unexpectedly, inspect the selected instrument, interval, date range, and logs before rerunning it.
+
+For batches submitted through Cloud, see [CTA Backtester Plus](cta-backtester-plus.md).
+
+## Updates and help
+
+See the [original product note](https://github.com/quantatier-apps/community/discussions/2) and [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements) for related changes. For help, follow [Support](../../SUPPORT.md) and mention **Darwin / CTA Backtester**.
 
 [Back to Quantatier](../../README.md)

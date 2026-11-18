@@ -2,19 +2,27 @@
 
 Part of **Quantatier · Darwin**
 
-Data Recorder supports recording real-time market data from a connected interface to a local database, subject to the capabilities of your version and configuration.
+Data Recorder saves supported live tick and bar data from a connected market-data interface to a local database.
 
-A supported connection, appropriate data access, and configuration are required. Available interfaces and data access depend on the distribution and your provider. Use market data in accordance with applicable access and licensing terms.
+## Before you begin
 
-Components integrated into a distribution remain subject to their respective notices and licenses.
+Have the app installed and enabled, a supported market-data connection, the relevant data access, and a configured local database. Confirm that the required instruments are receiving data.
 
-## Updates
+## Basic workflow
 
-- [Initial community notes — Darwin client 0.21.2 / Data Recorder component 1.1.1](https://github.com/quantatier-apps/community/discussions/4) — the initial record of the existing Data Recorder integration.
-- [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements) — future Darwin updates and related data-recording changes.
+1. Open Data Recorder and manage the instruments selected for recording.
+2. Select the supported tick or bar recording required for your workflow.
+3. Keep the market-data connection available and review recording messages and logs.
+4. Inspect the stored data through [Data Manager](data-manager.md), checking the relevant instruments and date coverage.
 
-## Questions and feedback
+The data available to record depends on your connected interface and data access.
 
-Ask questions in [Discussions](https://github.com/quantatier-apps/community/discussions), or [report an issue](https://github.com/quantatier-apps/community/issues/new/choose). Mention **Darwin / Data Recorder** and your product version when relevant. Do not post credentials, account details, or restricted data.
+## Common questions
+
+If no records appear, check incoming market data, instrument selection, database configuration, and recording logs. A connected interface alone does not confirm that the selected instrument is receiving data.
+
+## Updates and help
+
+See the [original product note](https://github.com/quantatier-apps/community/discussions/4). For help, follow [Support](../../SUPPORT.md) and mention **Darwin / Data Recorder**.
 
 [Back to Quantatier](../../README.md)

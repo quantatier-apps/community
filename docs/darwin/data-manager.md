@@ -2,19 +2,27 @@
 
 Part of **Quantatier · Darwin**
 
-Data Manager helps you work with local historical market data. Depending on your version and configuration, you can view, import, export, and maintain supported data.
+Data Manager helps you inspect and maintain local historical market data, including supported CSV imports and exports.
 
-Available operations, data formats, and data sources depend on your version and configuration. Historical data and any required data-source access must be obtained and configured separately where applicable.
+## Before you begin
 
-Components integrated into a distribution remain subject to their respective notices and licenses.
+Have the app installed and enabled, with the local database configured. Downloading history also requires a configured data service, a working connection, and the relevant data access.
 
-## Updates
+## Basic workflow
 
-- [Initial community notes — Darwin client 0.21.2 / Data Manager component 1.2.0](https://github.com/quantatier-apps/community/discussions/3) — the initial record of the existing Data Manager integration.
-- [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements) — future Darwin updates and related data-management changes.
+1. Open Data Manager and inspect the available instruments, intervals, and date coverage.
+2. Select the historical data you want to review or maintain.
+3. For CSV exchange, use the supported import or export controls and check the resulting data coverage.
+4. To obtain history through a data service, confirm its configuration and access before requesting the required data.
 
-## Questions and feedback
+Imported or downloaded data can support [local backtesting](local-backtesting.md). For recording incoming market data, see [Data Recorder](data-recorder.md).
 
-Ask questions in [Discussions](https://github.com/quantatier-apps/community/discussions), or [report an issue](https://github.com/quantatier-apps/community/issues/new/choose). Mention **Darwin / Data Manager** and your product version when relevant. Do not post credentials, account details, or restricted data.
+## Common questions
+
+If data is missing, check the instrument, interval, date range, and database configuration. If a download fails, check the data service and its access requirements. Data Manager does not provide market-data rights by itself.
+
+## Updates and help
+
+See the [original product note](https://github.com/quantatier-apps/community/discussions/3). For help, follow [Support](../../SUPPORT.md) and mention **Darwin / Data Manager**.
 
 [Back to Quantatier](../../README.md)
