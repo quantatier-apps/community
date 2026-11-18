@@ -32,9 +32,15 @@ Keep each report focused on one problem. Link related issues or discussions when
 
 ## Suggest a documentation change
 
-Start a [Q&A discussion](https://github.com/quantatier-apps/community/discussions/categories/q-a) before proposing a documentation change or sharing an example. Include the page link, the wording or example you suggest, and the reason for the change.
+Open a pull request for a correction to the public documentation, or open an issue describing what needs fixing. Include the page link, the wording or example you suggest, and the reason for the change. If you first need help understanding the behavior, ask in [Q&A](https://github.com/quantatier-apps/community/discussions/categories/q-a).
 
 Describe only behavior you have verified, including the product version or conditions that matter. Product availability and installation instructions should match the actual distribution.
+
+## Documentation and product code
+
+This repository maintains public product information, guides, and community feedback. Product source code is private and is not maintained here. Documentation contributions are welcome; report product defects through Issues so their handling can be followed.
+
+When an answer resolves a reusable question, it can be added to the relevant guide and linked from the original discussion. Product announcements summarize user-visible changes; guides describe the current workflow.
 
 ## Keep contributions useful
 

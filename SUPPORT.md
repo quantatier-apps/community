@@ -19,7 +19,7 @@ For a bug, provide the smallest example that demonstrates the problem. For an im
 Copy the following into your question or report and complete the relevant fields.
 
 ```text
-Product and feature:
+Product and app or feature:
 Product version:
 Operating system and version:
 
@@ -43,6 +43,12 @@ If a workflow uses both Darwin and Cloud, include both versions when available. 
 Remove passwords, API keys, account details, private strategies, and restricted market data from logs, screenshots, and attachments. Use a small synthetic example where it can demonstrate the same behavior.
 
 Write public questions and reports in English. Include enough context in the post for readers to understand the issue without accessing private files.
+
+## Follow an existing report
+
+Add relevant details to the existing issue or discussion rather than opening a duplicate. For a confirmed issue, follow its recorded status and linked product notes. Reusable answers may be incorporated into the relevant guide, with a link back to the discussion.
+
+You do not need to upload a proprietary strategy or an unredacted log to ask for help.
 
 ## Product updates and business inquiries
 

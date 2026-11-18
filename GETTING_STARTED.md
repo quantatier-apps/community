@@ -6,13 +6,16 @@ Use this community to find product information, follow updates, and get help wit
 
 | Product | Guide | What it covers |
 | --- | --- | --- |
-| Darwin | [Local Backtesting](docs/darwin/local-backtesting.md) | Running supported strategy backtests with local historical data and reviewing results. |
-| Darwin | [Data Manager](docs/darwin/data-manager.md) | Working with supported historical market data. |
-| Darwin | [Data Recorder](docs/darwin/data-recorder.md) | Recording supported live market data locally. |
-| Cloud | [Strategy Workspace](docs/cloud/strategy-workspace.md) | Current information about the workspace and its availability. |
-| Cloud | [Tasks & Results](docs/cloud/tasks-and-results.md) | Current information about task and result workflows. |
+| Darwin | [CTA Strategy](docs/darwin/cta-strategy.md) | Creating, initializing, and managing local CTA strategy instances. |
+| Darwin | [CTA Backtester](docs/darwin/local-backtesting.md) | Configuring local historical backtests and reviewing results. |
+| Darwin | [CTA Backtester Plus](docs/darwin/cta-backtester-plus.md) | Executing Cloud backtest batches on Darwin and returning results. |
+| Darwin | [Spread Trading](docs/darwin/spread-trading.md) | Working with spreads, spread algorithms, and automated spread strategies. |
+| Darwin | [Data Manager](docs/darwin/data-manager.md) | Inspecting local historical data and exchanging CSV files. |
+| Darwin | [Data Recorder](docs/darwin/data-recorder.md) | Recording incoming tick and bar data to a local database. |
+| Cloud | [Strategy Workspace](docs/cloud/strategy-workspace.md) | Preparing strategy drafts, versions, and parameters. |
+| Cloud | [Tasks & Results](docs/cloud/tasks-and-results.md) | Following task execution and reviewing returned reports. |
 
-Features, access, and setup depend on the product version and configuration. Cloud workflow information is being reviewed; consult the linked guides and confirmed announcements for current details.
+Choose the guide for the task you want to complete. Requirements and supported operations are described in each guide.
 
 ## Start with Darwin
 
@@ -22,7 +25,7 @@ Features, access, and setup depend on the product version and configuration. Clo
 4. Run a small example using data you are permitted to use.
 5. Review the available results and logs before moving to a larger workflow.
 
-For a first backtest, begin with [Local Backtesting](docs/darwin/local-backtesting.md). Use [Data Manager](docs/darwin/data-manager.md) for questions about supported historical data operations, or [Data Recorder](docs/darwin/data-recorder.md) for live recording requirements.
+For a first backtest, begin with [CTA Backtester](docs/darwin/local-backtesting.md). Use [Data Manager](docs/darwin/data-manager.md) for questions about supported historical data operations, or [Data Recorder](docs/darwin/data-recorder.md) for live recording requirements.
 
 Product access and supported platforms are described in the instructions accompanying your distribution.
 

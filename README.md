@@ -38,10 +38,10 @@ Work with strategies, run supported backtests, and review available results on y
 
 #### Supported apps
 
-- **CTA Strategy** — run and monitor local CTA strategies through connected trading gateways.
+- [**CTA Strategy**](docs/darwin/cta-strategy.md) — run and monitor local CTA strategies through connected trading gateways.
 - [**CTA Backtester**](docs/darwin/local-backtesting.md) — backtest CTA strategies with historical data, optimize parameters, and review results.
-- [**CTA Backtester Plus**](https://github.com/quantatier-apps/community/discussions/9) — run backtest batches submitted through Cloud on Darwin and return results for analysis.
-- **Spread Trading** — define custom spreads and run spread algorithms and automated strategies.
+- [**CTA Backtester Plus**](docs/darwin/cta-backtester-plus.md) — run backtest batches submitted through Cloud on Darwin and return results for analysis.
+- [**Spread Trading**](docs/darwin/spread-trading.md) — define custom spreads and run spread algorithms and automated strategies.
 - [**Data Manager**](docs/darwin/data-manager.md) — browse local historical data and import or export CSV files.
 - [**Data Recorder**](docs/darwin/data-recorder.md) — record live tick and bar data from connected gateways to a local database.
 
@@ -51,7 +51,7 @@ Work with strategies, run supported backtests, and review available results on y
 
 <a href="#cloud"><img src="./assets/quantacloud-logo-white-plate.png" alt="Quantacloud — Cloud product introduction" width="220"></a>
 
-Cloud is part of Quantatier. Details about available workflows will be shared after verification.
+Cloud supports preparing strategy versions, coordinating backtest tasks with Darwin, and reviewing returned results.
 
 - [Strategy Workspace](docs/cloud/strategy-workspace.md)
 - [Tasks & Results](docs/cloud/tasks-and-results.md)
@@ -77,13 +77,18 @@ Find product notes and updates in [Announcements](https://github.com/quantatier-
 
 ### Help and Feedback
 
-Ask installation and usage questions in [Q&A](https://github.com/quantatier-apps/community/discussions/categories/q-a). Follow user-facing product updates in [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements), and ongoing technical series in [Engineering](https://github.com/quantatier-apps/community/discussions/categories/engineering). To report a specific problem or suggest an improvement, use [Issues](https://github.com/quantatier-apps/community/issues).
+| What you need | Where to go |
+| --- | --- |
+| Help using or configuring an app | [Q&A](https://github.com/quantatier-apps/community/discussions/categories/q-a) |
+| Report a reproducible defect or a specific improvement | [Issues](https://github.com/quantatier-apps/community/issues/new/choose) |
+| Read official product changes and community notices | [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements) |
+| Read the maintainers' series on quantitative systems design | [Engineering](https://github.com/quantatier-apps/community/discussions/categories/engineering) |
 
 See the [Support guide](SUPPORT.md) for a question and issue checklist, or the [Contributing guide](CONTRIBUTING.md) for ways to participate. Our [welcome post](https://github.com/quantatier-apps/community/discussions/1) is another place to start.
 
 When reporting a problem, describe what you were trying to do, what happened, and any steps that help explain it. **Do not share passwords, API keys, account information, private strategies, or other sensitive data in public.**
 
-Community contributions can begin with a question, a reproducible issue, a suggestion, or an improvement to public documentation. To propose a documentation change or share an example, start a discussion first.
+Corrections and improvements to the public documentation are welcome through pull requests or Issues. Product source code remains private; usage questions and suggestions can be discussed in the community.
 
 ## Business Inquiries
 
