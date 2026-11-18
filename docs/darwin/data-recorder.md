@@ -11,7 +11,7 @@ Components integrated into a distribution remain subject to their respective not
 ## Updates
 
 - [Initial community notes — Darwin client 0.21.2 / Data Recorder component 1.1.1](https://github.com/quantatier-apps/community/discussions/4) — the initial record of the existing Data Recorder integration.
-- [Releases](https://github.com/quantatier-apps/community/releases) — future Darwin updates and related data-recording changes.
+- [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements) — future Darwin updates and related data-recording changes.
 
 ## Questions and feedback
 
