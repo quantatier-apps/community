@@ -36,9 +36,14 @@ This community is a place to learn about the products, ask questions, share idea
 
 Work with strategies, run supported backtests, and review available results on your computer.
 
-- [Local Backtesting](docs/darwin/local-backtesting.md) — run supported backtests locally.
-- [Data Manager](docs/darwin/data-manager.md) — work with local historical data.
-- [Data Recorder](docs/darwin/data-recorder.md) — record supported live market data locally.
+#### Supported apps
+
+- **CTA Strategy** — run and monitor local CTA strategies through connected trading gateways.
+- [**CTA Backtester**](docs/darwin/local-backtesting.md) — backtest CTA strategies with historical data, optimize parameters, and review results.
+- [**CTA Backtester Plus**](https://github.com/quantatier-apps/community/discussions/9) — run backtest batches submitted through Cloud on Darwin and return results for analysis.
+- **Spread Trading** — define custom spreads and run spread algorithms and automated strategies.
+- [**Data Manager**](docs/darwin/data-manager.md) — browse local historical data and import or export CSV files.
+- [**Data Recorder**](docs/darwin/data-recorder.md) — record live tick and bar data from connected gateways to a local database.
 
 [Getting started with Darwin →](#start-with-darwin) · [Ask the community](https://github.com/quantatier-apps/community/discussions)
 
