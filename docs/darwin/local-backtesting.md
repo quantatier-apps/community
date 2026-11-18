@@ -1,8 +1,8 @@
-# CTA Backtester
+# Backtest
 
 Part of **Quantatier · Darwin**
 
-CTA Backtester is a desktop app for historical CTA strategy research. Configure backtests using locally available strategies and historical data, review performance and execution records, and run parameter optimization where supported.
+Backtest is a desktop app for historical CTA strategy research. Configure backtests using locally available strategies and historical data, review performance and execution records, and run parameter optimization where supported.
 
 ## Before you begin
 
@@ -10,7 +10,7 @@ Have a compatible strategy class and historical data covering the intended instr
 
 ## Basic workflow
 
-1. Open the enabled CTA Backtester app.
+1. Open the enabled Backtest app.
 2. Select a strategy, instrument, interval, and date range.
 3. Configure strategy parameters and backtest settings, including capital, commission, and slippage.
 4. Run the backtest and review the available statistics, charts, orders, trades, daily results, and logs.
@@ -23,6 +23,6 @@ If a strategy is missing, check that its class is available locally. If a backte
 
 ## Help
 
-Follow [Support](../../SUPPORT.md) and mention **Darwin / CTA Backtester**. For optional tools to inspect or maintain historical data, see [Data Manager](data-manager.md).
+Follow [Support](../../SUPPORT.md) and mention **Darwin / Backtest**. For optional tools to inspect or maintain historical data, see [Data Manager](data-manager.md).
 
 [Back to Quantatier](../../README.md)
