@@ -2,14 +2,21 @@
 
 Part of **Quantatier · Cloud**
 
-Information about Tasks & Results is being reviewed. Availability and supported workflows will be shared once confirmed.
+Tasks & Results helps you follow backtesting tasks, inspect their details, and review available reports.
 
-## Updates
+## Basic workflow
 
-Check [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements) for published Cloud updates and related task or result changes.
+1. View and filter the backtesting task records relevant to your work.
+2. Check task and device status to follow execution.
+3. Open task details and the reports returned by completed work.
+4. Use the available management controls for eligible waiting or failed tasks.
 
-## Questions and feedback
+A task accepted by Cloud has not necessarily completed on Darwin. Check its execution status and available results. If a batch contains both successful and failed tasks, distinguish the results returned by successful tasks from the failed work.
 
-Ask questions in [Discussions](https://github.com/quantatier-apps/community/discussions), or [report an issue](https://github.com/quantatier-apps/community/issues/new/choose). Mention **Cloud / Tasks & Results** and, where relevant, your Cloud and Darwin versions. Do not post private strategies, credentials, account details, or restricted data.
+For tasks executed locally on Darwin, see [CTA Backtester Plus](../darwin/cta-backtester-plus.md). For preparing strategy content, see [Strategy Workspace](strategy-workspace.md).
+
+## Updates and help
+
+See the [original product note](https://github.com/quantatier-apps/community/discussions/8). For help, follow [Support](../../SUPPORT.md) and include **Cloud / Tasks & Results**, the relevant task status, and a sanitized error message when available.
 
 [Back to Quantatier](../../README.md)
