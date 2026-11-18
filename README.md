@@ -1,12 +1,12 @@
 <div align="center">
 
-<h1><img src="./quantatier-header-q-corner-v1.1r2.png" width="42" alt="">Quantatier</h1>
+<h1><img src="./assets/quantatier-header-q-corner-v1.1r2.png" width="42" alt="">Quantatier</h1>
 
 Tools for quantitative research and strategy workflows
 
-<a href="#darwin"><img src="./quantatier-badge-darwin-compact.png" width="66" height="26" alt="Darwin"></a>&#8201;&#8201;<a href="#cloud"><img src="./quantatier-badge-cloud-compact.png" width="62" height="26" alt="Cloud"></a>&#8201;&#8201;<a href="https://github.com/quantatier-apps/community/discussions"><img src="./quantatier-badge-community-compact.png" width="96" height="26" alt="Community"></a>
+<a href="#darwin"><img src="./assets/quantatier-badge-darwin-compact.png" width="66" height="26" alt="Darwin"></a>&#8201;&#8201;<a href="#cloud"><img src="./assets/quantatier-badge-cloud-compact.png" width="62" height="26" alt="Cloud"></a>&#8201;&#8201;<a href="https://github.com/quantatier-apps/community/discussions"><img src="./assets/quantatier-badge-community-compact.png" width="96" height="26" alt="Community"></a>
 
-<sub><a href="#getting-started">Getting Started</a>&#8201;·&#8201;<a href="https://github.com/quantatier-apps/community/discussions/categories/announcements">Updates</a>&#8201;·&#8201;<a href="https://github.com/quantatier-apps/community/issues/new/choose">Report&#160;an&#160;Issue</a></sub>
+<sub><a href="GETTING_STARTED.md">Getting Started</a>&#8201;·&#8201;<a href="https://github.com/quantatier-apps/community/discussions/categories/announcements">Updates</a>&#8201;·&#8201;<a href="https://github.com/quantatier-apps/community/issues/new/choose">Report&#160;an&#160;Issue</a></sub>
 
 </div>
 
@@ -18,11 +18,19 @@ Quantatier brings together tools for quantitative strategy research and workflow
 
 This community is a place to learn about the products, ask questions, share ideas, and follow updates.
 
+## Community Guides
+
+| Guide | What you will find |
+| --- | --- |
+| [Getting Started](GETTING_STARTED.md) | Product guides and where to begin with Darwin or Cloud. |
+| [Support](SUPPORT.md) | Where to ask a question, report a problem, and include useful details. |
+| [Contributing](CONTRIBUTING.md) | How to participate in discussions and improve the public documentation. |
+
 ## Products
 
 ### Darwin
 
-<a href="#start-with-darwin"><img src="./quantadarwin-logo-white-plate.png" alt="Quantadarwin — Darwin product introduction" width="220"></a>
+<a href="#start-with-darwin"><img src="./assets/quantadarwin-logo-white-plate.png" alt="Quantadarwin — Darwin product introduction" width="220"></a>
 
 **Your local workspace for strategy research and backtesting.**
 
@@ -36,7 +44,7 @@ Work with strategies, run supported backtests, and review available results on y
 
 ### Cloud
 
-<a href="#cloud"><img src="./quantacloud-logo-white-plate.png" alt="Quantacloud — Cloud product introduction" width="220"></a>
+<a href="#cloud"><img src="./assets/quantacloud-logo-white-plate.png" alt="Quantacloud — Cloud product introduction" width="220"></a>
 
 Cloud is part of Quantatier. Details about available workflows will be shared after verification.
 
@@ -64,7 +72,9 @@ Find product notes and updates in [Announcements](https://github.com/quantatier-
 
 ### Help and Feedback
 
-For questions, ideas, and workflow discussions, visit [Discussions](https://github.com/quantatier-apps/community/discussions). To report a specific problem or suggest an improvement, use [Issues](https://github.com/quantatier-apps/community/issues). Our [welcome post](https://github.com/quantatier-apps/community/discussions/1) is a good place to start.
+Ask installation and usage questions in [Q&A](https://github.com/quantatier-apps/community/discussions/categories/q-a). Follow user-facing product updates in [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements), and ongoing technical series in [Engineering](https://github.com/quantatier-apps/community/discussions/categories/engineering). To report a specific problem or suggest an improvement, use [Issues](https://github.com/quantatier-apps/community/issues).
+
+See the [Support guide](SUPPORT.md) for a question and issue checklist, or the [Contributing guide](CONTRIBUTING.md) for ways to participate. Our [welcome post](https://github.com/quantatier-apps/community/discussions/1) is another place to start.
 
 When reporting a problem, describe what you were trying to do, what happened, and any steps that help explain it. **Do not share passwords, API keys, account information, private strategies, or other sensitive data in public.**
 
