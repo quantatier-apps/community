@@ -15,9 +15,7 @@ For a Darwin backtest, Cloud automatically prepares the selected completed strat
 
 For following execution and reviewing returned results, see [Tasks & Results](tasks-and-results.md). For the Darwin executor, see [CTA Backtester Plus](../darwin/cta-backtester-plus.md).
 
-## Updates and help
-
-See the [original product note](https://github.com/quantatier-apps/community/discussions/7) and [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements) for related changes.
+## Help
 
 For usage questions, follow [Support](../../SUPPORT.md) and mention **Cloud / Strategy Workspace**. Keep private strategies and credentials out of public posts.
 

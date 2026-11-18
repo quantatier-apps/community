@@ -15,8 +15,12 @@ A task accepted by Cloud has not necessarily completed on Darwin. Check its exec
 
 For tasks executed locally on Darwin, see [CTA Backtester Plus](../darwin/cta-backtester-plus.md). For preparing strategy content, see [Strategy Workspace](strategy-workspace.md).
 
-## Updates and help
+## Historical result compatibility
 
-See the [original product note](https://github.com/quantatier-apps/community/discussions/8). For help, follow [Support](../../SUPPORT.md) and include **Cloud / Tasks & Results**, the relevant task status, and a sanitized error message when available.
+Previously supported historical backtest results remain available for viewing and analysis without rerunning the backtest. Opening a report preserves the original result archive. Supported Chinese and English direction and open/close labels remain recognized in those records.
+
+## Help
+
+Follow [Support](../../SUPPORT.md) and include **Cloud / Tasks & Results**, the relevant task status, and a sanitized error message when available.
 
 [Back to Quantatier](../../README.md)
