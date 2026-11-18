@@ -14,7 +14,7 @@ Tools for quantitative research and strategy workflows
 
 ## About Quantatier
 
-Quantatier brings together tools for quantitative strategy research and workflows. **Darwin** provides a local workspace for strategy work and backtesting. **Cloud** is part of Quantatier.
+Quantatier develops tools for quantitative strategy research and workflows. **Darwin** hosts desktop apps for strategy execution, historical backtesting, spread trading, and market-data management. **Cloud** provides strategy version management, backtest task coordination, and report analysis.
 
 This community is a place to learn about the products, ask questions, share ideas, and follow updates.
 
@@ -32,18 +32,35 @@ This community is a place to learn about the products, ask questions, share idea
 
 <a href="#start-with-darwin"><img src="./assets/quantadarwin-logo-white-plate.png" alt="Quantadarwin — Darwin product introduction" width="220"></a>
 
-**Your local workspace for strategy research and backtesting.**
+**Desktop apps for quantitative research and trading workflows.**
 
-Work with strategies, run supported backtests, and review available results on your computer.
+Choose an app for the work you want to do. Each guide explains that app's requirements, operations, and results.
 
 #### Supported apps
 
-- [**CTA Strategy**](docs/darwin/cta-strategy.md) — run and monitor local CTA strategies through connected trading gateways.
-- [**CTA Backtester**](docs/darwin/local-backtesting.md) — backtest CTA strategies with historical data, optimize parameters, and review results.
-- [**CTA Backtester Plus**](docs/darwin/cta-backtester-plus.md) — run backtest batches submitted through Cloud on Darwin and return results for analysis.
-- [**Spread Trading**](docs/darwin/spread-trading.md) — define custom spreads and run spread algorithms and automated strategies.
-- [**Data Manager**](docs/darwin/data-manager.md) — browse local historical data and import or export CSV files.
-- [**Data Recorder**](docs/darwin/data-recorder.md) — record live tick and bar data from connected gateways to a local database.
+##### [CTA Strategy](docs/darwin/cta-strategy.md)
+
+Create and manage single-instrument CTA strategy instances. Initialize, start, stop, and monitor strategies that use configured trading gateways.
+
+##### [CTA Backtester](docs/darwin/local-backtesting.md)
+
+Configure historical CTA backtests in a desktop interface. Review statistics, charts, orders, and trades, and run parameter optimization where supported.
+
+##### [CTA Backtester Plus](docs/darwin/cta-backtester-plus.md)
+
+Execute CTA backtest batches on a Darwin device using local historical data. Tasks are submitted from Cloud; the app saves their results and returns execution status and reports to Cloud.
+
+##### [Spread Trading](docs/darwin/spread-trading.md)
+
+Define spreads made from multiple contract legs and follow calculated spread prices. Run spread algorithms or automated spread strategies through configured trading interfaces.
+
+##### [Data Manager](docs/darwin/data-manager.md)
+
+Inspect and maintain historical market data. Import or export supported CSV files, and download history through configured data services.
+
+##### [Data Recorder](docs/darwin/data-recorder.md)
+
+Select instruments and record supported live tick and bar data to a local database. Monitor recording messages and logs while the market-data connection is active.
 
 [Getting started with Darwin →](#start-with-darwin) · [Ask the community](https://github.com/quantatier-apps/community/discussions)
 
@@ -62,12 +79,7 @@ Available features and workflows depend on the product version and configuration
 
 ### Start with Darwin
 
-1. Open the Darwin version provided to you.
-2. Prepare a supported strategy and the historical data needed for your backtest.
-3. Configure and run a local backtest.
-4. Review the available results, charts, trades, and logs.
-
-Product access, supported platforms, and setup instructions depend on the version provided to you. Refer to the instructions accompanying your product distribution.
+Use [Getting Started](GETTING_STARTED.md) to choose an app guide. Follow the installation and setup instructions supplied with your distribution, then use the guide for that app's workflow and requirements.
 
 ## Updates and Releases
 

@@ -8,7 +8,7 @@ Use this community to find product information, follow updates, and get help wit
 | --- | --- | --- |
 | Darwin | [CTA Strategy](docs/darwin/cta-strategy.md) | Creating, initializing, and managing local CTA strategy instances. |
 | Darwin | [CTA Backtester](docs/darwin/local-backtesting.md) | Configuring local historical backtests and reviewing results. |
-| Darwin | [CTA Backtester Plus](docs/darwin/cta-backtester-plus.md) | Executing Cloud backtest batches on Darwin and returning results. |
+| Darwin | [CTA Backtester Plus](docs/darwin/cta-backtester-plus.md) | Executing CTA backtest batches on Darwin and returning task status and reports to Cloud. |
 | Darwin | [Spread Trading](docs/darwin/spread-trading.md) | Working with spreads, spread algorithms, and automated spread strategies. |
 | Darwin | [Data Manager](docs/darwin/data-manager.md) | Inspecting local historical data and exchanging CSV files. |
 | Darwin | [Data Recorder](docs/darwin/data-recorder.md) | Recording incoming tick and bar data to a local database. |
@@ -24,8 +24,6 @@ Choose the guide for the task you want to complete. Requirements and supported o
 3. Prepare the strategy, historical data, or supported data connection required by that feature.
 4. Run a small example using data you are permitted to use.
 5. Review the available results and logs before moving to a larger workflow.
-
-For a first backtest, begin with [CTA Backtester](docs/darwin/local-backtesting.md). Use [Data Manager](docs/darwin/data-manager.md) for questions about supported historical data operations, or [Data Recorder](docs/darwin/data-recorder.md) for live recording requirements.
 
 Product access and supported platforms are described in the instructions accompanying your distribution.
 
