@@ -14,7 +14,7 @@ Tools for quantitative research and strategy workflows
 
 ## About Quantatier
 
-Quantatier develops tools for quantitative strategy research and workflows. **Darwin** hosts desktop apps for strategy execution, historical backtesting, spread trading, and market-data management. **Cloud** provides strategy version management, backtest task coordination, and report analysis.
+Quantatier develops tools for quantitative strategy research and workflows. **Darwin** provides desktop tools for historical backtesting and market-data management. **Cloud** provides strategy version management, backtest task coordination, and report analysis.
 
 This community is a place to learn about the products, ask questions, share ideas, and follow updates.
 
@@ -32,35 +32,19 @@ This community is a place to learn about the products, ask questions, share idea
 
 <a href="#start-with-darwin"><img src="./assets/quantadarwin-logo-white-plate.png" alt="Quantadarwin — Darwin product introduction" width="220"></a>
 
-**Desktop apps for quantitative research and trading workflows.**
+**Historical strategy research on your desktop.**
 
 Choose an app for the work you want to do. Each guide explains that app's requirements, operations, and results.
 
 #### Supported apps
 
-##### [CTA Strategy](docs/darwin/cta-strategy.md)
+##### [Backtest](docs/darwin/local-backtesting.md)
 
-Create and manage single-instrument CTA strategy instances. Initialize, start, stop, and monitor strategies that use configured trading gateways.
+Configure historical strategy backtests in a desktop interface. Review statistics, charts, orders, and trades, and run parameter optimization where supported.
 
-##### [CTA Backtester](docs/darwin/local-backtesting.md)
+##### [Backtest Pro](docs/darwin/cta-backtester-plus.md)
 
-Configure historical CTA backtests in a desktop interface. Review statistics, charts, orders, and trades, and run parameter optimization where supported.
-
-##### [CTA Backtester Plus](docs/darwin/cta-backtester-plus.md)
-
-Execute CTA backtest batches on a Darwin device using local historical data. Tasks are submitted from Cloud; the app saves their results and returns execution status and reports to Cloud.
-
-##### [Spread Trading](docs/darwin/spread-trading.md)
-
-Define spreads made from multiple contract legs and follow calculated spread prices. Run spread algorithms or automated spread strategies through configured trading interfaces.
-
-##### [Data Manager](docs/darwin/data-manager.md)
-
-Inspect and maintain historical market data. Import or export supported CSV files, and download history through configured data services.
-
-##### [Data Recorder](docs/darwin/data-recorder.md)
-
-Select instruments and record supported live tick and bar data to a local database. Monitor recording messages and logs while the market-data connection is active.
+Execute Cloud-submitted backtest tasks on a Darwin device using local historical data. Save task results and return execution status and reports to Cloud.
 
 [Getting started with Darwin →](#start-with-darwin) · [Ask the community](https://github.com/quantatier-apps/community/discussions)
 
@@ -96,7 +80,7 @@ Find product notes and updates in [Announcements](https://github.com/quantatier-
 | Read official product changes and community notices | [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements) |
 | Read the maintainers' series on quantitative systems design | [Engineering](https://github.com/quantatier-apps/community/discussions/categories/engineering) |
 
-See the [Support guide](SUPPORT.md) for a question and issue checklist, or the [Contributing guide](CONTRIBUTING.md) for ways to participate. Our [welcome post](https://github.com/quantatier-apps/community/discussions/1) is another place to start.
+See the [Support guide](SUPPORT.md) for a question and issue checklist, or the [Contributing guide](CONTRIBUTING.md) for ways to participate.
 
 When reporting a problem, describe what you were trying to do, what happened, and any steps that help explain it. **Do not share passwords, API keys, account information, private strategies, or other sensitive data in public.**
 

@@ -2,22 +2,22 @@
 
 Use this community to find product information, follow updates, and get help with Quantatier's Darwin and Cloud.
 
-## Choose a product guide
-
-| Product | Guide | What it covers |
-| --- | --- | --- |
-| Darwin | [CTA Strategy](docs/darwin/cta-strategy.md) | Creating, initializing, and managing local CTA strategy instances. |
-| Darwin | [CTA Backtester](docs/darwin/local-backtesting.md) | Configuring local historical backtests and reviewing results. |
-| Darwin | [CTA Backtester Plus](docs/darwin/cta-backtester-plus.md) | Executing CTA backtest batches on Darwin and returning task status and reports to Cloud. |
-| Darwin | [Spread Trading](docs/darwin/spread-trading.md) | Working with spreads, spread algorithms, and automated spread strategies. |
-| Darwin | [Data Manager](docs/darwin/data-manager.md) | Inspecting local historical data and exchanging CSV files. |
-| Darwin | [Data Recorder](docs/darwin/data-recorder.md) | Recording incoming tick and bar data to a local database. |
-| Cloud | [Strategy Workspace](docs/cloud/strategy-workspace.md) | Preparing strategy drafts, versions, and parameters. |
-| Cloud | [Tasks & Results](docs/cloud/tasks-and-results.md) | Following task execution and reviewing returned reports. |
-
-Choose the guide for the task you want to complete. Requirements and supported operations are described in each guide.
-
 ## Start with Darwin
+
+### Default research setup
+
+Start with **Backtest** for historical strategy research and **Data Manager** for the local market data used in that research. Follow the installation instructions supplied with your Darwin distribution to prepare these apps.
+
+| App | Guide |
+| --- | --- |
+| [Backtest](docs/darwin/local-backtesting.md) | Configure historical backtests, optimize supported strategy parameters, and review results. |
+| [Data Manager](docs/darwin/data-manager.md) | Inspect local historical data, exchange supported CSV files, and download history through configured data services. |
+
+### Backtest Pro
+
+[Backtest Pro](docs/darwin/cta-backtester-plus.md) executes Cloud-submitted backtest tasks on Darwin, saves their results, and returns status and reports to Cloud. Its guide explains authorization, the Cloud connection, strategy preparation, and local historical data requirements.
+
+### Prepare your first workflow
 
 1. Follow the installation and setup instructions supplied with your Darwin distribution.
 2. Check the product version and the instructions for the feature you want to use.
@@ -26,6 +26,13 @@ Choose the guide for the task you want to complete. Requirements and supported o
 5. Review the available results and logs before moving to a larger workflow.
 
 Product access and supported platforms are described in the instructions accompanying your distribution.
+
+## Cloud guides
+
+| Guide | What it covers |
+| --- | --- |
+| [Strategy Workspace](docs/cloud/strategy-workspace.md) | Preparing strategy drafts, versions, and parameters. |
+| [Tasks & Results](docs/cloud/tasks-and-results.md) | Following task execution and reviewing returned reports. |
 
 ## Find the right community area
 
