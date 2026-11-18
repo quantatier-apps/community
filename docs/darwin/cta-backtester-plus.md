@@ -2,7 +2,7 @@
 
 Part of **Quantatier · Darwin**
 
-CTA Backtester Plus runs Cloud-submitted backtest batches on your Darwin device and returns results for Cloud analysis. Use it when you want to organize research in Cloud while executing backtests against locally available strategies and historical data.
+CTA Backtester Plus is a CTA backtest batch executor for Darwin. It processes tasks submitted from Cloud using local historical data, saves task results, and returns execution status and reports to Cloud.
 
 ## Before you begin
 
@@ -11,10 +11,12 @@ Have CTA Backtester Plus installed and enabled in **Application center**, with v
 ## Basic workflow
 
 1. Prepare the supported backtest task from the completed strategy version in Cloud and confirm that the connected Darwin device has the required historical data.
-2. Submit the task, then use **Cloud tasks** in Darwin to follow its execution and result delivery.
+2. Submit the task. In Darwin, select **View Cloud tasks** on the CTA Backtester Plus card in **Application center** to open **Cloud tasks** and follow execution and result delivery.
 3. Review completed results in Cloud. When a task fails, inspect its status and relevant logs before correcting the inputs and submitting another task.
 
-In Darwin, the Plus card's **View Cloud tasks** action opens the task-management page. It does not open the native desktop backtesting form. For the standard graphical workflow that you configure and run locally, see [Local Backtesting](local-backtesting.md).
+## Results and task status
+
+Successfully completed tasks retain daily results even when there are no trades. A task that encounters a strategy execution error is marked as failed; its partial output is not saved as a completed report.
 
 ## Common questions
 

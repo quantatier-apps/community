@@ -2,7 +2,7 @@
 
 Part of **Quantatier · Darwin**
 
-Spread Trading supports trading spreads made from multiple contract legs. Its native application covers spread pricing, spread algorithm execution, and spread strategies. Use it when your trading logic depends on the relationship between several instruments.
+Spread Trading is an app for trading relationships between multiple instruments. Define spreads from their contract legs, follow calculated spread prices, and run spread algorithms or automated spread strategies.
 
 ## Before you begin
 
@@ -12,9 +12,9 @@ Spreads composed of exchange arbitrage contracts are not supported.
 
 ## Basic workflow
 
-1. Open the enabled Spread Trading app from **Application center** or **Local tools**. Darwin opens the native Spread Trading window.
+1. Open the enabled Spread Trading app from **Application center** or **Local tools**.
 2. Prepare the spread definition using its contract legs, then check the incoming leg data and calculated spread prices.
-3. Use the native window to manage spread algorithms or spread strategies as required by your workflow. Review their configuration and monitor their state and logs during execution.
+3. Manage spread algorithms or spread strategies in the Spread Trading window. Review their configuration and monitor their state and logs during execution.
 
 ## Common questions
 

@@ -2,7 +2,7 @@
 
 Part of **Quantatier · Darwin**
 
-CTA Strategy runs single-instrument CTA strategies locally. Use it to create strategy instances, initialize them, and manage their running state after preparing and reviewing your strategy.
+CTA Strategy is a desktop app for running single-instrument CTA strategies. Create strategy instances, initialize them with the required data, and manage their execution through configured trading gateways. The app shows strategy state, variables, and logs for monitoring.
 
 ## Before you begin
 

@@ -2,11 +2,11 @@
 
 Part of **Quantatier · Darwin**
 
-CTA Backtester provides a graphical workspace for running supported CTA strategies against local historical data and reviewing results. This workflow can be used without Cloud.
+CTA Backtester is a desktop app for historical CTA strategy research. Configure backtests using locally available strategies and historical data, review performance and execution records, and run parameter optimization where supported.
 
 ## Before you begin
 
-Have a compatible strategy class and the required historical data available. Use [Data Manager](data-manager.md) to inspect your data coverage. The app must be installed and enabled in **Application center**.
+Have a compatible strategy class and historical data covering the intended instrument, interval, and date range. The app must be installed and enabled in **Application center**.
 
 ## Basic workflow
 
@@ -21,10 +21,8 @@ Parameter optimization controls are available where supported by your product co
 
 If a strategy is missing, check that its class is available locally. If a backtest has no data or stops unexpectedly, inspect the selected instrument, interval, date range, and logs before rerunning it.
 
-For batches submitted through Cloud, see [CTA Backtester Plus](cta-backtester-plus.md).
+## Help
 
-## Updates and help
-
-See the [original product note](https://github.com/quantatier-apps/community/discussions/2) and [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements) for related changes. For help, follow [Support](../../SUPPORT.md) and mention **Darwin / CTA Backtester**.
+Follow [Support](../../SUPPORT.md) and mention **Darwin / CTA Backtester**. For optional tools to inspect or maintain historical data, see [Data Manager](data-manager.md).
 
 [Back to Quantatier](../../README.md)
