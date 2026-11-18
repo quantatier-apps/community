@@ -6,7 +6,7 @@ Information about Tasks & Results is being reviewed. Availability and supported 
 
 ## Updates
 
-Check [Releases](https://github.com/quantatier-apps/community/releases) for published Cloud updates and related task or result changes.
+Check [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements) for published Cloud updates and related task or result changes.
 
 ## Questions and feedback
 
