@@ -6,7 +6,7 @@ Information about Strategy Workspace is being reviewed. Availability and support
 
 ## Updates
 
-Check [Releases](https://github.com/quantatier-apps/community/releases) for published Cloud updates and related workspace changes.
+Check [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements) for published Cloud updates and related workspace changes.
 
 ## Questions and feedback
 
