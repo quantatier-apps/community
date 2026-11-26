@@ -1,22 +1,31 @@
-# Darwin Downloads
+# Darwin downloads
 
-Download Darwin and optional apps for **Apple Silicon Macs running macOS 15 or later**.
+For **Apple Silicon Macs running macOS 15 or later**.
 
-| Product | Version | Download | Details |
-| --- | --- | --- | --- |
-| Darwin desktop | 0.21.4 preview | [DMG](https://github.com/quantatier-apps/community/releases/download/darwin-v0.21.4/quantadarwin_client_0.21.4_macos_arm64.dmg) · [SHA-256](https://github.com/quantatier-apps/community/releases/download/darwin-v0.21.4/quantadarwin_client_0.21.4_macos_arm64.dmg.sha256) | [Release notes](https://github.com/quantatier-apps/community/releases/tag/darwin-v0.21.4) |
-| Backtest Pro | 0.5.2 preview | [Wheel](https://github.com/quantatier-apps/community/releases/download/backtest-pro-v0.5.2/quantadarwin_ctabacktester_plus-0.5.2-cp310-cp310-macosx_15_0_arm64.whl) · [SHA-256](https://github.com/quantatier-apps/community/releases/download/backtest-pro-v0.5.2/quantadarwin_ctabacktester_plus-0.5.2-cp310-cp310-macosx_15_0_arm64.whl.sha256) | [Release notes](https://github.com/quantatier-apps/community/releases/tag/backtest-pro-v0.5.2) |
+## [Darwin](https://github.com/quantatier-apps/community/releases/download/darwin-v0.21.4/quantadarwin_client_0.21.4_macos_arm64.dmg)
 
-## Install Darwin
+Desktop application · 0.21.4 · DMG · [SHA-256](https://github.com/quantatier-apps/community/releases/download/darwin-v0.21.4/quantadarwin_client_0.21.4_macos_arm64.dmg.sha256) · [Release notes](https://github.com/quantatier-apps/community/releases/tag/darwin-v0.21.4)
+
+### Install Darwin
 
 Download the DMG and its SHA-256 file into the same folder. In Terminal, run `shasum -a 256 -c quantadarwin_client_0.21.4_macos_arm64.dmg.sha256` from that folder. Open the DMG, drag Darwin into Applications, and open it once. This preview is unsigned and unnotarized. macOS may show a security warning or block launch.
 
-## Install Backtest Pro
+### Apps in Darwin
+
+#### [Backtest](docs/darwin/local-backtesting.md)
+
+Included with Darwin.
+
+#### [Backtest Pro](https://github.com/quantatier-apps/community/releases/download/backtest-pro-v0.5.2/quantadarwin_ctabacktester_plus-0.5.2-cp310-cp310-macosx_15_0_arm64.whl)
+
+Optional app · 0.5.2 · Wheel · [SHA-256](https://github.com/quantatier-apps/community/releases/download/backtest-pro-v0.5.2/quantadarwin_ctabacktester_plus-0.5.2-cp310-cp310-macosx_15_0_arm64.whl.sha256) · [Release notes](https://github.com/quantatier-apps/community/releases/tag/backtest-pro-v0.5.2)
+
+##### Install Backtest Pro
 
 Requires **Darwin 0.21.4**, an Apple Silicon Mac, and **macOS 15 or later**. Darwin supplies the runtime dependencies, including `psutil`.
 
 1. Install Darwin 0.21.4 and open it once to update its local Python environment. Quit Darwin.
-2. Download the Backtest Pro wheel and its SHA-256 file from **Assets** into Downloads.
+2. Save the wheel and its SHA-256 file from the links above into Downloads.
 3. Run these commands in Terminal:
 
 ```bash
