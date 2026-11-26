@@ -2,13 +2,13 @@
 
 For **Apple Silicon Macs running macOS 15 or later**.
 
-## [Darwin](https://github.com/quantatier-apps/community/releases/download/darwin-v0.21.4/quantadarwin_client_0.21.4_macos_arm64.dmg)
+## [Darwin](https://github.com/quantatier-apps/community/releases/download/darwin-v0.21.5/quantadarwin_client_0.21.5_macos_arm64.dmg)
 
-Desktop application · 0.21.4 · DMG · [SHA-256](https://github.com/quantatier-apps/community/releases/download/darwin-v0.21.4/quantadarwin_client_0.21.4_macos_arm64.dmg.sha256) · [Release notes](https://github.com/quantatier-apps/community/releases/tag/darwin-v0.21.4)
+Desktop application · 0.21.5 · DMG · [SHA-256](https://github.com/quantatier-apps/community/releases/download/darwin-v0.21.5/quantadarwin_client_0.21.5_macos_arm64.dmg.sha256) · [Release notes](https://github.com/quantatier-apps/community/releases/tag/darwin-v0.21.5)
 
 ### Install Darwin
 
-Download the DMG and its SHA-256 file into the same folder. In Terminal, run `shasum -a 256 -c quantadarwin_client_0.21.4_macos_arm64.dmg.sha256` from that folder. Open the DMG, drag Darwin into Applications, and open it once. This preview is unsigned and unnotarized. macOS may show a security warning or block launch.
+Download the DMG and its SHA-256 file into the same folder. In Terminal, run `shasum -a 256 -c quantadarwin_client_0.21.5_macos_arm64.dmg.sha256` from that folder. Open the DMG, drag Darwin into Applications, and open it once. This build is unsigned and unnotarized. macOS may show a security warning or block launch.
 
 ### Apps in Darwin
 
@@ -22,7 +22,12 @@ Optional app · 0.5.2 · Wheel · [SHA-256](https://github.com/quantatier-apps/c
 
 ##### Install Backtest Pro
 
-Requires **Darwin 0.21.4**, an Apple Silicon Mac, and **macOS 15 or later**. Darwin supplies the runtime dependencies, including `psutil`.
+Requires **Darwin 0.21.5 or 0.21.4**, an Apple Silicon Mac, and **macOS 15 or later**. Darwin supplies the runtime dependencies, including `psutil`.
+
+**Darwin 0.21.5** · Download the wheel and its SHA-256 file. After verifying the download, open **Application center → Install from File** and select the `.whl`. Darwin installs it into its own Python environment and refreshes the app list.
+
+<details>
+<summary>Terminal installation for Darwin 0.21.4</summary>
 
 1. Install Darwin 0.21.4 and open it once to update its local Python environment. Quit Darwin.
 2. Save the wheel and its SHA-256 file from the links above into Downloads.
@@ -38,7 +43,9 @@ shasum -a 256 -c quantadarwin_ctabacktester_plus-0.5.2-cp310-cp310-macosx_15_0_a
   -I -B -m pip --isolated check
 ```
 
-4. Reopen Darwin and choose **Modules → Backtest Pro → Enable**. An active Cloud connection and a valid Backtest Pro entitlement are required. Opening Backtest Pro takes you to Cloud Tasks.
+</details>
+
+In Darwin, choose **Application center → Backtest Pro → Enable**. An active Cloud connection and a valid Backtest Pro entitlement are required. Opening Backtest Pro takes you to Cloud Tasks.
 
 ## Release history and help
 
