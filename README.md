@@ -28,23 +28,21 @@ This community is a place to learn about the products, ask questions, share idea
 
 ## Products
 
-### Darwin
+### [Darwin](DOWNLOADS.md#darwin)
 
 <a href="#start-with-darwin"><img src="./assets/quantadarwin-logo-white-plate.png" alt="Quantadarwin — Darwin product introduction" width="220"></a>
 
-**Historical strategy research on your desktop.**
+Darwin is the desktop application for quantitative strategy research.
 
-Choose an app for the work you want to do. Each guide explains that app's requirements, operations, and results.
-
-#### Supported apps
+#### Apps in Darwin
 
 ##### [Backtest](docs/darwin/local-backtesting.md)
 
-Configure historical strategy backtests in a desktop interface. Review statistics, charts, orders, and trades, and run parameter optimization where supported.
+Included with Darwin. Run historical strategy backtests and review statistics, charts, orders, and trades. Parameter optimization is available where supported.
 
 ##### [Backtest Pro](docs/darwin/cta-backtester-plus.md)
 
-Execute Cloud-submitted backtest tasks on a Darwin device using local historical data. Save task results and return execution status and reports to Cloud.
+An optional app installed in Darwin. Run backtest tasks submitted by Cloud using local historical data and send the results back to Cloud.
 
 [Getting started with Darwin →](#start-with-darwin) · [Ask the community](https://github.com/quantatier-apps/community/discussions)
 
@@ -67,7 +65,7 @@ Use [Getting Started](GETTING_STARTED.md) to choose an app guide. Follow the ins
 
 ## Updates and Releases
 
-Get Darwin and its optional apps from [Downloads](DOWNLOADS.md). Browse version history in [GitHub Releases](https://github.com/quantatier-apps/community/releases).
+See [Darwin](DOWNLOADS.md#darwin) for the desktop installer and [Backtest Pro](DOWNLOADS.md#backtest-pro) for the optional app package. Browse version history in [GitHub Releases](https://github.com/quantatier-apps/community/releases).
 
 Find product notes and updates in [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements).
 
