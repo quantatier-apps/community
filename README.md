@@ -6,7 +6,7 @@ Tools for quantitative research and strategy workflows
 
 <a href="#darwin"><img src="./assets/quantatier-badge-darwin-compact.png" width="66" height="26" alt="Darwin"></a>&#8201;&#8201;<a href="#cloud"><img src="./assets/quantatier-badge-cloud-compact.png" width="62" height="26" alt="Cloud"></a>&#8201;&#8201;<a href="https://github.com/quantatier-apps/community/discussions"><img src="./assets/quantatier-badge-community-compact.png" width="96" height="26" alt="Community"></a>
 
-<sub><a href="GETTING_STARTED.md">Getting Started</a>&#8201;·&#8201;<a href="https://github.com/quantatier-apps/community/discussions/categories/announcements">Updates</a>&#8201;·&#8201;<a href="https://github.com/quantatier-apps/community/issues/new/choose">Report&#160;an&#160;Issue</a></sub>
+<sub><a href="GETTING_STARTED.md">Getting Started</a>&#8201;·&#8201;<a href="DOWNLOADS.md">Downloads</a>&#8201;·&#8201;<a href="https://github.com/quantatier-apps/community/discussions/categories/announcements">Updates</a>&#8201;·&#8201;<a href="https://github.com/quantatier-apps/community/issues/new/choose">Report&#160;an&#160;Issue</a></sub>
 
 </div>
 
@@ -67,6 +67,8 @@ Use [Getting Started](GETTING_STARTED.md) to choose an app guide. Follow the ins
 
 ## Updates and Releases
 
+Get Darwin and its optional apps from [Downloads](DOWNLOADS.md). Browse version history in [GitHub Releases](https://github.com/quantatier-apps/community/releases).
+
 Find product notes and updates in [Announcements](https://github.com/quantatier-apps/community/discussions/categories/announcements).
 
 ## Community
@@ -100,11 +102,7 @@ Quantatier products may incorporate or integrate third-party projects. Those pro
 
 ### Libraries and Frameworks
 
-Quantatier’s development uses libraries and frameworks including [PySide6](https://doc.qt.io/qtforpython/), [pyqtgraph](https://www.pyqtgraph.org/), [NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [Vue](https://vuejs.org/), and [Element Plus](https://element-plus.org/). We thank their authors and contributors.
-
-### Quantitative Projects
-
-Some Darwin components are derived from or incorporate [vn.py](https://github.com/vnpy/vnpy). We thank its authors and contributors.
+Quantatier’s development uses libraries and frameworks including [PySide6](https://doc.qt.io/qtforpython/), [pyqtgraph](https://www.pyqtgraph.org/), [NumPy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [vn.py](https://github.com/vnpy/vnpy), [Vue](https://vuejs.org/), and [Element Plus](https://element-plus.org/). We thank their authors and contributors.
 
 ### References and Future Exploration
 
